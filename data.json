@@ -398,133 +398,93 @@
         "volume": "2 x 6"
       }
     ],
-    "Wk 1, Set 1": [
+    "Set 1": [
       {
         "name": "40 feet",
         "volume": "20 x 25 throws"
+      },
+      {
+        "name": "55 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "70 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "90 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "90 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "105 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "105 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "125 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "125 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "165 feet",
+        "volume": "20 x 25 throws"
+      },
+      {
+        "name": "165 feet",
+        "volume": "20 x 25 throws"
       }
     ],
-    "Wk 1, Set 2": [
+    "Set 2": [
       {
         "name": "40 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 2, Set 1": [
-      {
-        "name": "55 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 2, Set 2": [
+      },
       {
         "name": "55 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 3, Set 1": [
-      {
-        "name": "70 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 3, Set 2": [
+      },
       {
         "name": "70 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 4, Set 1": [
-      {
-        "name": "90 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 4, Set 2": [
+      },
       {
         "name": "90 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 5, Set 1": [
-      {
-        "name": "90 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 5, Set 2": [
+      },
       {
         "name": "90 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 6, Set 1": [
-      {
-        "name": "105 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 6, Set 2": [
+      },
       {
         "name": "105 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 7, Set 1": [
-      {
-        "name": "105 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 7, Set 2": [
+      },
       {
         "name": "105 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 8, Set 1": [
-      {
-        "name": "125 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 8, Set 2": [
+      },
       {
         "name": "125 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 9, Set 1": [
-      {
-        "name": "125 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 9, Set 2": [
+      },
       {
         "name": "125 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 10, Set 1": [
-      {
-        "name": "165 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 10, Set 2": [
+      },
       {
         "name": "165 feet",
         "volume": "20 x 20 x 25 throws"
-      }
-    ],
-    "Wk 11, Set 1": [
-      {
-        "name": "165 feet",
-        "volume": "20 x 25 throws"
-      }
-    ],
-    "Wk 11, Set 2": [
+      },
       {
         "name": "165 feet",
         "volume": "20 x 20 x 25 throws"
@@ -902,6 +862,32 @@
         "volume": "4\u201312 reps per exercise",
         "notes": "Use coordinated posture and controlled rhythm."
       }
+    ],
+    "Hitting Routine": [
+      {
+        "name": "Tee"
+      },
+      {
+        "name": "Flips"
+      },
+      {
+        "name": "Machine"
+      }
+    ],
+    "Tee": [
+      {
+        "name": "Tee"
+      }
+    ],
+    "Flips": [
+      {
+        "name": "Flips"
+      }
+    ],
+    "Machine": [
+      {
+        "name": "Machine"
+      }
     ]
   },
   "masterCalendar": {
@@ -920,6 +906,11 @@
       ],
       "Infield": [
         "Hands routine"
+      ],
+      "Hitting": [
+        "Tee",
+        "Flips",
+        "Machine"
       ]
     },
     "Tuesday": {
@@ -938,6 +929,11 @@
       ],
       "Infield": [
         "Posture Series"
+      ],
+      "Hitting": [
+        "Tee",
+        "Flips",
+        "Machine"
       ]
     },
     "Wednesday": {
@@ -953,6 +949,11 @@
       ],
       "Infield": [
         "Big 5 + Challenge"
+      ],
+      "Hitting": [
+        "Tee",
+        "Flips",
+        "Machine"
       ]
     },
     "Thursday": {
@@ -968,6 +969,11 @@
       ],
       "Infield": [
         "Posture Series"
+      ],
+      "Hitting": [
+        "Tee",
+        "Flips",
+        "Machine"
       ]
     },
     "Friday": {
@@ -976,6 +982,11 @@
       ],
       "Infield": [
         "Hands routine"
+      ],
+      "Hitting": [
+        "Tee",
+        "Flips",
+        "Machine"
       ]
     },
     "Saturday": {
@@ -991,6 +1002,11 @@
       "Infield": [
         "Hands routine",
         "Big 5 + Challenge"
+      ],
+      "Hitting": [
+        "Tee",
+        "Flips",
+        "Machine"
       ]
     },
     "Sunday": {
@@ -1005,6 +1021,11 @@
       ],
       "Yoga Series": [
         "Yoga"
+      ],
+      "Hitting": [
+        "Tee",
+        "Flips",
+        "Machine"
       ]
     }
   },
@@ -1064,6 +1085,14 @@
     "Explosive Movement -2": {
       "mode": "sequence",
       "description": "5-step sequence"
+    },
+    "Set 1": {
+      "mode": "sequence",
+      "description": "11-step sequence"
+    },
+    "Set 2": {
+      "mode": "sequence",
+      "description": "11-step sequence"
     },
     "Core": {
       "mode": "sequence",
