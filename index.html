@@ -3,7 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-<title>Varsity Prep</title>
+<title>Baseball Development</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Baseball Dev">
+<meta name="theme-color" content="#0a0a0a">
 <style>
   :root{
     --black:#0a0a0a;
@@ -585,19 +590,19 @@ function render(){
   const app = document.getElementById('app');
 
   if(!dataLoaded && !dataLoadError){
-    app.innerHTML = `<div class="hero"><p class="hero-eyebrow">VARSITY PREP</p><h1 class="hero-title">Training Program</h1></div>
+    app.innerHTML = `<div class="hero"><p class="hero-eyebrow">BASEBALL DEVELOPMENT</p><h1 class="hero-title">Training Program</h1></div>
       <div class="rest-card" style="margin:18px 14px;"><strong>Loading program…</strong></div>`;
     return;
   }
   if(dataLoadError){
-    app.innerHTML = `<div class="hero"><p class="hero-eyebrow">VARSITY PREP</p><h1 class="hero-title">Training Program</h1></div>
+    app.innerHTML = `<div class="hero"><p class="hero-eyebrow">BASEBALL DEVELOPMENT</p><h1 class="hero-title">Training Program</h1></div>
       <div class="rest-card" style="margin:18px 14px;"><strong>Couldn't load today's program</strong>Check your connection and reload the page.</div>`;
     return;
   }
 
   app.innerHTML = `
     <div class="hero">
-      <p class="hero-eyebrow">VARSITY PREP</p>
+      <p class="hero-eyebrow">BASEBALL DEVELOPMENT</p>
       <h1 class="hero-title">Training Program</h1>
       <p class="hero-sub">${currentTab==='today' ? currentDay+" — today's work" : "Week at a glance"}</p>
       <button class="refresh-btn" id="refreshBtn" title="Refresh program">⟳</button>
