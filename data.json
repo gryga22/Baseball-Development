@@ -1,0 +1,1094 @@
+{
+  "controlCenter": {
+    "Ladders": [
+      {
+        "name": "1 In the hole",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "2 in the hole",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Side shuffle each way",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "In / in / out / out",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Double touch on the outside",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Hop scotch",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Slalom",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Back foot in the hole",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Hop on Right only",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Hop on Left only",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Salsa",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      },
+      {
+        "name": "Bunny hop \u00bd + two in a hole for \u00bd",
+        "volume": "15 - 20 seconds",
+        "notes": "Can do forwards, backwards, eyes close"
+      }
+    ],
+    "Dots": [
+      {
+        "name": "Up and Back",
+        "volume": "10 sec",
+        "notes": "Repeat the up-and-back pattern."
+      },
+      {
+        "name": "Right Foot Only",
+        "volume": "10 sec",
+        "notes": "Complete the drill using only the right foot."
+      },
+      {
+        "name": "Left Foot Only",
+        "volume": "10 sec",
+        "notes": "Complete the drill using only the left foot."
+      },
+      {
+        "name": "Slalom",
+        "volume": "10 sec",
+        "notes": "Move through the dots in a slalom pattern."
+      },
+      {
+        "name": "Up and Rotate / Back and Rotate",
+        "volume": "10 sec",
+        "notes": "Rotate during both the up and back portions."
+      },
+      {
+        "name": "Combination Set \u2014 Up and Back of #1\u20135",
+        "volume": "10 sec per drill",
+        "notes": "Combine the up-and-back versions of drills 1 through 5."
+      }
+    ],
+    "Rotator Cuff -1": [
+      {
+        "name": "External Rotations (band)",
+        "volume": "2 x 10",
+        "notes": "Elbow tucked; rotate outward slowly."
+      },
+      {
+        "name": "Internal Rotations (band)",
+        "volume": "2 x 10",
+        "notes": "Keep elbow tight; move slowly and controlled."
+      },
+      {
+        "name": "Reverse Flys (band)",
+        "volume": "2 x 10",
+        "notes": "Arms straight; squeeze shoulder blades."
+      },
+      {
+        "name": "Arm Circles",
+        "volume": "20 sec each way",
+        "notes": "Start small and fast; gradually increase size."
+      },
+      {
+        "name": "Shoulder Sweep Stretch",
+        "volume": "6 each side",
+        "notes": "Keep knees down and let the chest open."
+      }
+    ],
+    "Scapular Control -1": [
+      {
+        "name": "T/Y/I Raises",
+        "volume": "2 x 10 each",
+        "notes": "Squeeze shoulder blades in every position."
+      },
+      {
+        "name": "Wall Scap Slides",
+        "volume": "2 x 10",
+        "notes": "Maintain wall contact; do not arch the back."
+      },
+      {
+        "name": "T/Y/I Wall Holds",
+        "volume": "15 sec each",
+        "notes": "Press into wall; pull shoulder blades down and in."
+      },
+      {
+        "name": "Elbow Taps",
+        "volume": "2 x 10",
+        "notes": "Stay upright; extend smoothly overhead."
+      },
+      {
+        "name": "Bird Dog",
+        "volume": "2 x 6 each side",
+        "notes": "Keep back flat and core tight."
+      }
+    ],
+    "Arm Speed Support -1": [
+      {
+        "name": "Arm Circles",
+        "volume": "20 sec each way",
+        "notes": "Build speed and endurance; reverse direction."
+      },
+      {
+        "name": "Reverse Flys",
+        "volume": "2 x 12 fast",
+        "notes": "Snap shoulder blades together each rep."
+      },
+      {
+        "name": "Wall Taps",
+        "volume": "3 x 10 sec",
+        "notes": "Tap rapidly side to side; keep core engaged."
+      },
+      {
+        "name": "Towel Snap Drill",
+        "volume": "2 x 5",
+        "notes": "Clean arm path; snap the towel out front."
+      },
+      {
+        "name": "Thoracic Mobility",
+        "volume": "6 reps",
+        "notes": "Keep hips still; rotate through the upper back."
+      }
+    ],
+    "Stability -1": [
+      {
+        "name": "T/Y/I Wall Holds",
+        "volume": "2 x 20 sec each",
+        "notes": "Keep core tight and avoid shrugging."
+      },
+      {
+        "name": "Wall Scap Slides",
+        "volume": "2 x 10",
+        "notes": "Use slow control and full range; do not arch."
+      },
+      {
+        "name": "Side Plank Reach-Throughs",
+        "volume": "2 x 5 each",
+        "notes": "Rotate gently while holding the plank."
+      },
+      {
+        "name": "Band External Rotations",
+        "volume": "2 x 10",
+        "notes": "Move smoothly; keep elbow fixed."
+      },
+      {
+        "name": "Wrist Flicks",
+        "volume": "3 x 20 sec",
+        "notes": "Use quick wrist action with a towel or light ball."
+      }
+    ],
+    "Explosive Activation  -1": [
+      {
+        "name": "Jump squats",
+        "volume": "2 x 5"
+      },
+      {
+        "name": "Lateral skater hops",
+        "volume": "2 x 5 each leg"
+      },
+      {
+        "name": "High knees in place",
+        "volume": "2 x 15 sec"
+      },
+      {
+        "name": "Side plank + reach",
+        "volume": "2 x 5 each side"
+      },
+      {
+        "name": "Bird dog",
+        "volume": "2 x 8"
+      }
+    ],
+    "Explosive Movement -1": [
+      {
+        "name": "Sprint bounds x 2",
+        "volume": "2 x 10 yards"
+      },
+      {
+        "name": "Lunge to jump",
+        "volume": "2 x 5 each leg"
+      },
+      {
+        "name": "Broad jump",
+        "volume": "2 x 3"
+      },
+      {
+        "name": "Hip openers",
+        "volume": "2 x 6"
+      },
+      {
+        "name": "Plank to push-up",
+        "volume": "2 x 6"
+      }
+    ],
+    "Rotator Cuff -2": [
+      {
+        "name": "External Rotations (band)",
+        "volume": "2 x 10",
+        "notes": "Elbow tucked; rotate outward slowly."
+      },
+      {
+        "name": "Internal Rotations (band)",
+        "volume": "2 x 10",
+        "notes": "Keep elbow tight; move slowly and controlled."
+      },
+      {
+        "name": "Reverse Flys (band)",
+        "volume": "2 x 10",
+        "notes": "Arms straight; squeeze shoulder blades."
+      },
+      {
+        "name": "Arm Circles",
+        "volume": "20 sec each way",
+        "notes": "Start small and fast; gradually increase size."
+      },
+      {
+        "name": "Shoulder Sweep Stretch",
+        "volume": "6 each side",
+        "notes": "Keep knees down and let the chest open."
+      }
+    ],
+    "Scapular Control -2": [
+      {
+        "name": "T/Y/I Raises",
+        "volume": "2 x 10 each",
+        "notes": "Squeeze shoulder blades in every position."
+      },
+      {
+        "name": "Wall Scap Slides",
+        "volume": "2 x 10",
+        "notes": "Maintain wall contact; do not arch the back."
+      },
+      {
+        "name": "T/Y/I Wall Holds",
+        "volume": "15 sec each",
+        "notes": "Press into wall; pull shoulder blades down and in."
+      },
+      {
+        "name": "Elbow Taps",
+        "volume": "2 x 10",
+        "notes": "Stay upright; extend smoothly overhead."
+      },
+      {
+        "name": "Bird Dog",
+        "volume": "2 x 6 each side",
+        "notes": "Keep back flat and core tight."
+      }
+    ],
+    "Arm Speed Support -2": [
+      {
+        "name": "Arm Circles",
+        "volume": "20 sec each way",
+        "notes": "Build speed and endurance; reverse direction."
+      },
+      {
+        "name": "Reverse Flys",
+        "volume": "2 x 12 fast",
+        "notes": "Snap shoulder blades together each rep."
+      },
+      {
+        "name": "Wall Taps",
+        "volume": "3 x 10 sec",
+        "notes": "Tap rapidly side to side; keep core engaged."
+      },
+      {
+        "name": "Towel Snap Drill",
+        "volume": "2 x 5",
+        "notes": "Clean arm path; snap the towel out front."
+      },
+      {
+        "name": "Thoracic Mobility",
+        "volume": "6 reps",
+        "notes": "Keep hips still; rotate through the upper back."
+      }
+    ],
+    "Stability -2": [
+      {
+        "name": "T/Y/I Wall Holds",
+        "volume": "2 x 20 sec each",
+        "notes": "Keep core tight and avoid shrugging."
+      },
+      {
+        "name": "Wall Scap Slides",
+        "volume": "2 x 10",
+        "notes": "Use slow control and full range; do not arch."
+      },
+      {
+        "name": "Side Plank Reach-Throughs",
+        "volume": "2 x 5 each",
+        "notes": "Rotate gently while holding the plank."
+      },
+      {
+        "name": "Band External Rotations",
+        "volume": "2 x 10",
+        "notes": "Move smoothly; keep elbow fixed."
+      },
+      {
+        "name": "Wrist Flicks",
+        "volume": "3 x 20 sec",
+        "notes": "Use quick wrist action with a towel or light ball."
+      }
+    ],
+    "Explosive Activation  -2": [
+      {
+        "name": "Jump squats",
+        "volume": "2 x 5"
+      },
+      {
+        "name": "Lateral skater hops",
+        "volume": "2 x 5 each leg"
+      },
+      {
+        "name": "High knees in place",
+        "volume": "2 x 15 sec"
+      },
+      {
+        "name": "Side plank + reach",
+        "volume": "2 x 5 each side"
+      },
+      {
+        "name": "Bird dog",
+        "volume": "2 x 8"
+      }
+    ],
+    "Explosive Movement -2": [
+      {
+        "name": "Sprint bounds x 2",
+        "volume": "2 x 10 yards"
+      },
+      {
+        "name": "Lunge to jump",
+        "volume": "2 x 5 each leg"
+      },
+      {
+        "name": "Broad jump",
+        "volume": "2 x 3"
+      },
+      {
+        "name": "Hip openers",
+        "volume": "2 x 6"
+      },
+      {
+        "name": "Plank to push-up",
+        "volume": "2 x 6"
+      }
+    ],
+    "Wk 1, Set 1": [
+      {
+        "name": "40 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 1, Set 2": [
+      {
+        "name": "40 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 2, Set 1": [
+      {
+        "name": "55 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 2, Set 2": [
+      {
+        "name": "55 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 3, Set 1": [
+      {
+        "name": "70 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 3, Set 2": [
+      {
+        "name": "70 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 4, Set 1": [
+      {
+        "name": "90 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 4, Set 2": [
+      {
+        "name": "90 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 5, Set 1": [
+      {
+        "name": "90 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 5, Set 2": [
+      {
+        "name": "90 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 6, Set 1": [
+      {
+        "name": "105 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 6, Set 2": [
+      {
+        "name": "105 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 7, Set 1": [
+      {
+        "name": "105 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 7, Set 2": [
+      {
+        "name": "105 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 8, Set 1": [
+      {
+        "name": "125 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 8, Set 2": [
+      {
+        "name": "125 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 9, Set 1": [
+      {
+        "name": "125 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 9, Set 2": [
+      {
+        "name": "125 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 10, Set 1": [
+      {
+        "name": "165 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 10, Set 2": [
+      {
+        "name": "165 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Wk 11, Set 1": [
+      {
+        "name": "165 feet",
+        "volume": "20 x 25 throws"
+      }
+    ],
+    "Wk 11, Set 2": [
+      {
+        "name": "165 feet",
+        "volume": "20 x 20 x 25 throws"
+      }
+    ],
+    "Core": [
+      {
+        "name": "March / Fast March",
+        "notes": "Posture tall; coordinate opposite arm and leg."
+      },
+      {
+        "name": "High Knees",
+        "notes": "Stay tall and lift knees with control."
+      },
+      {
+        "name": "Frequency High Knees",
+        "notes": "Quick contacts and fast leg turnover."
+      },
+      {
+        "name": "Pogos",
+        "notes": "Bounce quickly from a stiff, active ankle."
+      },
+      {
+        "name": "Skips for Height",
+        "notes": "Drive upward with coordinated arm action."
+      },
+      {
+        "name": "Bounds",
+        "notes": "Push forcefully behind the body."
+      },
+      {
+        "name": "Straight-Leg Bounds",
+        "notes": "Strike beneath the hips with straight-leg rhythm."
+      },
+      {
+        "name": "Frequency Straight-Leg Bounds",
+        "notes": "Keep contacts quick and rhythm consistent."
+      },
+      {
+        "name": "Sprints",
+        "notes": "Accelerate with quality mechanics; stop before form declines."
+      },
+      {
+        "name": "Bonus: Run Backwards / Hill",
+        "notes": "Use only when appropriate for the session and surface."
+      }
+    ],
+    "Optional Swaps": [
+      {
+        "name": "Skater Jumps (control)"
+      },
+      {
+        "name": "Skater Bounds (skater, jump, skater in same direction)"
+      },
+      {
+        "name": "Power Shuffles"
+      },
+      {
+        "name": "Single-Leg Hops"
+      },
+      {
+        "name": "Single-Leg Hops, Change Direction"
+      },
+      {
+        "name": "Box Jumps"
+      },
+      {
+        "name": "Depth Jumps"
+      },
+      {
+        "name": "Broad Jumps"
+      },
+      {
+        "name": "Triple Broad Jumps"
+      },
+      {
+        "name": "Continuous Broad Jumps (up hill)"
+      },
+      {
+        "name": "Switch Lunges"
+      },
+      {
+        "name": "Lunge Jumps"
+      },
+      {
+        "name": "Squats"
+      },
+      {
+        "name": "Run Backwards"
+      },
+      {
+        "name": "Push-Up Starts"
+      },
+      {
+        "name": "Single-Leg Hops to Sprint"
+      },
+      {
+        "name": "Broad Jump into Sprint"
+      },
+      {
+        "name": "Crossover Run into Sprint"
+      },
+      {
+        "name": "Side Shuffle into Sprint"
+      },
+      {
+        "name": "Side Shuffle Back to Sprint"
+      },
+      {
+        "name": "False Back into Sprint"
+      }
+    ],
+    "Warmup": [
+      {
+        "name": "Single Arm Circles",
+        "volume": "5 each",
+        "notes": "Rotate arm in a large circle slowly. Movement can be both forward and backward. Try to create a larger circle with each rep."
+      },
+      {
+        "name": "Standing Knee Circles",
+        "volume": "5 each",
+        "notes": "Rotate each knee in large circles around the hip. Cross over the stance leg and open the hip. Try to create a larger circle with each rep."
+      },
+      {
+        "name": "Woodchoppers",
+        "volume": "10",
+        "notes": "Feet set wide. Reach all the way overhead then swing down through the legs to dynamically stretch the posterior chain."
+      },
+      {
+        "name": "Big Circles",
+        "volume": "5 each",
+        "notes": "Feet set wide. Rotate the upper body all the way around."
+      },
+      {
+        "name": "Arm Swings",
+        "volume": "10",
+        "notes": "Swing arms back and forth, try to hug yourself when crossing over. Alternate swinging over and under with each rep."
+      },
+      {
+        "name": "Rotation Swings",
+        "volume": "5 each",
+        "notes": "Rotate back and forth swinging back arm to stretch across the torso and chest. Rotate back hip. Keep back arm above shoulder height to stretch the pecs."
+      },
+      {
+        "name": "Good Mornings",
+        "volume": "10",
+        "notes": "Back flat with hands crossed over chest. Knees bent, push hips back."
+      },
+      {
+        "name": "Hip Flexor Steps",
+        "volume": "5 each",
+        "notes": "Pushup position, step outside the hand and drive hips to the ground."
+      },
+      {
+        "name": "Hamstring Raise",
+        "volume": "10",
+        "notes": "Athletic position stance. Grab feet and squat down low. Keep the chest tall in the bottom position with elbows inside the knees. Straighten legs to stretch hamstrings, keep hold of feet"
+      },
+      {
+        "name": "Side to Side",
+        "volume": "5 each",
+        "notes": "Feet facing straight ahead, laterally shift weight back and forth. Keep weight through the heels. Hips stay level throughout the movement. No up and down."
+      },
+      {
+        "name": "Single RDL",
+        "volume": "5 each",
+        "notes": "Arms out at the side with thumbs up. Keep leg and spine locked together as you bend over at the hip. Keep pelvis square."
+      },
+      {
+        "name": "Quick Ankle Hops",
+        "volume": "20\u201350 contacts",
+        "notes": "Popping off the midfoot with legs straight. Pulls toes up in between contacts. As fast as possible."
+      }
+    ],
+    "Posture Series": [
+      {
+        "name": "Neutral",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Forehand \u2014 Open Stance",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Forehand \u2014 Closed Stance",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Forehand \u2014 Drop Step",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Slow Roller \u2014 2 Hands",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Backhand \u2014 Drop Step",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Backhand \u2014 Closed Stance",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Backhand \u2014 Open Stance",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Slow Roller \u2014 1 Hand",
+        "volume": "10-15 seconds"
+      },
+      {
+        "name": "Slow Roller \u2014 Backhand",
+        "volume": "10-15 seconds"
+      }
+    ],
+    "Hands routine": [
+      {
+        "name": "Two Ball Quick Exchange"
+      },
+      {
+        "name": "Two Ball Forehand Toss \u2014 Bounce"
+      },
+      {
+        "name": "One Ball Backhand Hinge \u2014 Pick"
+      },
+      {
+        "name": "Two Ball Standing Forehand Speed Exchange"
+      },
+      {
+        "name": "One Ball Kneeling Backhand Hinge \u2014 Receive"
+      },
+      {
+        "name": "Two Ball Kneeling Backhand Hinge (Zone 2) \u2014 Receive"
+      },
+      {
+        "name": "Kneeling \u2014 Zone 1 \u2014 Receive"
+      },
+      {
+        "name": "Kneeling \u2014 DP \u2014 Flip Feeds"
+      },
+      {
+        "name": "Kneeling \u2014 DP \u2014 Toss Feeds"
+      },
+      {
+        "name": "Kneeling Rocker Feeds"
+      },
+      {
+        "name": "Kneeling Zone 3 (Forehands)"
+      },
+      {
+        "name": "Standing Rhythm 3 Ball \u2014 Wall Juggle"
+      }
+    ],
+    "Big 5 + Challenge": [
+      {
+        "name": "Hop series"
+      },
+      {
+        "name": "3 step / 5 step"
+      },
+      {
+        "name": "Ozzie"
+      },
+      {
+        "name": "Choose your hop"
+      },
+      {
+        "name": "Over the shoulder"
+      },
+      {
+        "name": "Tennis balls"
+      },
+      {
+        "name": "Faster than game speed"
+      },
+      {
+        "name": "10 DP turns",
+        "video": "https://youtu.be/5e1wMQjUsJU"
+      }
+    ],
+    "Yoga": [
+      {
+        "name": "Sumo 1",
+        "volume": "4\u201312 reps",
+        "notes": "Balanced and square; use controlled range."
+      },
+      {
+        "name": "Sumo 2",
+        "volume": "4\u201312 reps",
+        "notes": "Balanced and square; use controlled range."
+      },
+      {
+        "name": "Sumo 3",
+        "volume": "4\u201312 reps",
+        "notes": "Balanced and square; use controlled range."
+      },
+      {
+        "name": "Lateral Lunge",
+        "volume": "4\u201312 reps each leg",
+        "notes": "Stay balanced; hinge at the hips as appropriate."
+      },
+      {
+        "name": "Reach Down and Out",
+        "volume": "12\u201324 sec hold",
+        "notes": "Maintain posture and positioning throughout the hold."
+      },
+      {
+        "name": "Reach Up",
+        "volume": "12\u201324 sec hold",
+        "notes": "Maintain posture and positioning throughout the hold."
+      },
+      {
+        "name": "Sumo Squat",
+        "volume": "4\u201312 reps",
+        "notes": "Stay balanced and square; control the squat."
+      },
+      {
+        "name": "Burners",
+        "volume": "12\u201324 reps",
+        "notes": "Complete repetitions in all three directions."
+      },
+      {
+        "name": "Single-Leg Crossover Squat",
+        "volume": "4\u201312 reps each leg",
+        "notes": "Maintain balance and controlled positioning."
+      },
+      {
+        "name": "Lateral Single-Leg Squat",
+        "volume": "4\u201312 reps each leg",
+        "notes": "Stay square and control the single-leg position."
+      },
+      {
+        "name": "Lateral Squat",
+        "volume": "4\u201312 reps",
+        "notes": "Complete controlled repetitions in each direction."
+      },
+      {
+        "name": "Duck Sit",
+        "volume": "12\u201324 sec hold",
+        "notes": "Hold a balanced, controlled position."
+      },
+      {
+        "name": "Pigeon Stretch",
+        "volume": "12\u201324 sec hold",
+        "notes": "Use a controlled, pain-free stretch position."
+      },
+      {
+        "name": "Up & Overs",
+        "volume": "12\u201324 reps each leg",
+        "notes": "Move under control through the full pattern."
+      },
+      {
+        "name": "Duck Walk Forward",
+        "volume": "4\u201312 reps",
+        "notes": "Stay low and controlled while moving forward."
+      },
+      {
+        "name": "Duck Walk Lateral",
+        "volume": "4\u201312 reps",
+        "notes": "Stay low and controlled while moving laterally."
+      },
+      {
+        "name": "Warrior 1",
+        "volume": "12\u201324 sec hold",
+        "notes": "Maintain balanced posture throughout the hold."
+      },
+      {
+        "name": "Warrior 2",
+        "volume": "12\u201324 sec hold",
+        "notes": "Maintain balanced posture throughout the hold."
+      },
+      {
+        "name": "High Knee Skip",
+        "volume": "4\u201312 reps per exercise",
+        "notes": "Use coordinated posture and controlled rhythm."
+      }
+    ]
+  },
+  "masterCalendar": {
+    "Monday": {
+      "Arm Care + Mobility": [
+        "Explosive Activation  -1"
+      ],
+      "Dynamic Warmup": [
+        "Warmup"
+      ],
+      "External Rotations (band)": [
+        "Rotator Cuff -1"
+      ],
+      "Footwork": [
+        "Ladders"
+      ],
+      "Infield": [
+        "Hands routine"
+      ]
+    },
+    "Tuesday": {
+      "Arm Care + Mobility": [
+        "Explosive Movement -1",
+        "Scapular Control -1"
+      ],
+      "Dynamic Warmup": [
+        "Warmup"
+      ],
+      "Footwork": [
+        "Dots"
+      ],
+      "Speed Progression": [
+        "Core"
+      ],
+      "Infield": [
+        "Posture Series"
+      ]
+    },
+    "Wednesday": {
+      "Arm Care + Mobility": [
+        "Arm Speed Support -1",
+        "Explosive Activation  -2"
+      ],
+      "Dynamic Warmup": [
+        "Warmup"
+      ],
+      "Footwork": [
+        "Ladders"
+      ],
+      "Infield": [
+        "Big 5 + Challenge"
+      ]
+    },
+    "Thursday": {
+      "Arm Care + Mobility": [
+        "Explosive Movement -2",
+        "Stability -1"
+      ],
+      "Dynamic Warmup": [
+        "Warmup"
+      ],
+      "Footwork": [
+        "Dots"
+      ],
+      "Infield": [
+        "Posture Series"
+      ]
+    },
+    "Friday": {
+      "Dynamic Warmup": [
+        "Warmup"
+      ],
+      "Infield": [
+        "Hands routine"
+      ]
+    },
+    "Saturday": {
+      "Dynamic Warmup": [
+        "Warmup"
+      ],
+      "Footwork": [
+        "Ladders"
+      ],
+      "Speed Progression": [
+        "Optional Swaps"
+      ],
+      "Infield": [
+        "Hands routine",
+        "Big 5 + Challenge"
+      ]
+    },
+    "Sunday": {
+      "Dynamic Warmup": [
+        "Warmup"
+      ],
+      "Footwork": [
+        "Dots"
+      ],
+      "Infield": [
+        "Big 5 + Challenge"
+      ],
+      "Yoga Series": [
+        "Yoga"
+      ]
+    }
+  },
+  "setMeta": {
+    "Ladders": {
+      "mode": "sequence",
+      "description": "12-step sequence"
+    },
+    "Dots": {
+      "mode": "sequence",
+      "description": "6-step sequence"
+    },
+    "Rotator Cuff -1": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Scapular Control -1": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Arm Speed Support -1": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Stability -1": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Explosive Activation  -1": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Explosive Movement -1": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Rotator Cuff -2": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Scapular Control -2": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Arm Speed Support -2": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Stability -2": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Explosive Activation  -2": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Explosive Movement -2": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Core": {
+      "mode": "sequence",
+      "description": "10-step sequence"
+    },
+    "Optional Swaps": {
+      "mode": "sequence",
+      "description": "21-step sequence"
+    },
+    "Warmup": {
+      "mode": "sequence",
+      "description": "12-step sequence"
+    },
+    "Posture Series": {
+      "mode": "sequence",
+      "description": "10-step sequence",
+      "video": "https://www.instagram.com/tv/CB6tvz5ANU-/?stkn=MXIweDU4Z2ZpM2kx"
+    },
+    "Hands routine": {
+      "mode": "sequence",
+      "description": "12-step sequence"
+    },
+    "Big 5 + Challenge": {
+      "mode": "sequence",
+      "description": "8-step sequence"
+    }
+  }
+}

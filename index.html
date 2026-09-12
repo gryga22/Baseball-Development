@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Varsity Prep</title>
+<style>
+  :root{
+    --black:#0a0a0a;
+    --red:#c8102e;
+    --red-dark:#8f0a20;
+    --paper:#f2f1ee;
+    --card:#ffffff;
+    --ink:#141414;
+    --muted:#6b6b6b;
+    --line:#e3e1db;
+    --done:#1c8a4c;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .app{max-width:480px;margin:0 auto;min-height:100vh;background:var(--paper);padding-bottom:40px;}
+
+  /* header */
+  .hero{
+    background:var(--black);
+    color:#fff;
+    padding:22px 18px 16px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute;
+    right:-30px; top:-30px;
+    width:140px;height:140px;
+    background:var(--red);
+    opacity:.15;
+    transform:rotate(20deg);
+  }
+  .hero-eyebrow{
+    font-size:12px;
+    letter-spacing:.04em;
+    color:var(--red);
+    font-weight:700;
+    margin:0 0 2px;
+  }
+  .hero-title{
+    font-size:26px;
+    font-weight:800;
+    letter-spacing:-0.02em;
+    margin:0;
+    font-stretch:condensed;
+    transform:scaleX(0.96);
+    transform-origin:left;
+  }
+  .hero-sub{
+    margin:6px 0 0;
+    font-size:13px;
+    color:#c9c9c9;
+  }
+
+  /* tabs */
+  .tabs{
+    display:flex;
+    background:var(--black);
+    padding:0 18px;
+  }
+  .tab{
+    flex:1;
+    text-align:center;
+    padding:10px 0 12px;
+    font-size:13px;
+    font-weight:700;
+    color:#8a8a8a;
+    border-bottom:3px solid transparent;
+    cursor:pointer;
+    background:none;
+    border-top:none;border-left:none;border-right:none;
+    font-family:inherit;
+  }
+  .tab.active{color:#fff;border-bottom-color:var(--red);}
+
+  /* day strip */
+  .day-strip{
+    display:flex;
+    gap:6px;
+    padding:14px 14px 4px;
+    overflow-x:auto;
+  }
+  .day-chip{
+    flex:0 0 auto;
+    padding:8px 12px;
+    border-radius:999px;
+    background:var(--card);
+    border:1px solid var(--line);
+    font-size:12px;
+    font-weight:700;
+    color:var(--muted);
+    cursor:pointer;
+  }
+  .day-chip.active{
+    background:var(--red);
+    border-color:var(--red);
+    color:#fff;
+  }
+  .day-chip .rest-tag{
+    font-weight:400;
+    font-size:10px;
+  }
+
+  .progress-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:10px 18px 4px;
+  }
+  .progress-bar{
+    flex:1;
+    height:6px;
+    background:var(--line);
+    border-radius:999px;
+    overflow:hidden;
+  }
+  .progress-fill{
+    height:100%;
+    background:var(--red);
+    width:0%;
+    transition:width .25s ease;
+  }
+  .progress-label{
+    font-size:12px;
+    font-weight:700;
+    color:var(--muted);
+    white-space:nowrap;
+  }
+
+  /* module block */
+  .module{margin:18px 14px 0;}
+  .module-bar{
+    background:var(--black);
+    color:#fff;
+    padding:8px 12px;
+    border-radius:4px;
+    font-size:13px;
+    font-weight:800;
+    letter-spacing:.02em;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .module-bar .count{
+    font-size:11px;
+    font-weight:600;
+    color:#bdbdbd;
+  }
+
+  .drill-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-top:none;
+    padding:12px;
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+  }
+  .module .drill-card:last-child{border-radius:0 0 4px 4px;}
+
+  .checkbox{
+    width:24px;height:24px;
+    border-radius:6px;
+    border:2px solid #c9c7c0;
+    flex:0 0 24px;
+    margin-top:1px;
+    display:flex;align-items:center;justify-content:center;
+    cursor:pointer;
+    background:#fff;
+  }
+  .checkbox.checked{
+    background:var(--done);
+    border-color:var(--done);
+  }
+  .checkbox.checked::after{
+    content:"";
+    width:11px;height:6px;
+    border-left:2.5px solid #fff;
+    border-bottom:2.5px solid #fff;
+    transform:rotate(-45deg) translate(1px,-1px);
+  }
+
+  .drill-main{flex:1;min-width:0;}
+  .drill-name{
+    font-size:15px;
+    font-weight:700;
+    margin:0;
+  }
+  .drill-name.done{
+    color:var(--muted);
+    text-decoration:line-through;
+    text-decoration-color:#c9c7c0;
+  }
+  .drill-meta{
+    font-size:12px;
+    color:var(--muted);
+    margin:2px 0 0;
+  }
+  .drill-set-tag{
+    display:inline-block;
+    font-size:10px;
+    font-weight:700;
+    color:var(--red);
+    background:#fbe6e9;
+    padding:2px 6px;
+    border-radius:4px;
+    margin-bottom:4px;
+  }
+  .drill-link{
+    display:inline-flex;
+    align-items:center;
+    gap:4px;
+    font-size:12px;
+    font-weight:700;
+    color:var(--red-dark);
+    text-decoration:none;
+    margin-top:6px;
+  }
+
+  .rest-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:30px 16px;
+    text-align:center;
+    margin:18px 14px 0;
+    color:var(--muted);
+  }
+  .rest-card strong{display:block;color:var(--ink);font-size:16px;margin-bottom:4px;}
+
+  /* week view */
+  .week-wrap{padding:14px;}
+  .week-grid{
+    display:grid;
+    grid-template-columns:70px repeat(7,1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+    border-radius:4px;
+    overflow:hidden;
+    font-size:10px;
+  }
+  .week-cell{
+    background:var(--card);
+    padding:6px 3px;
+    text-align:center;
+    min-height:30px;
+    display:flex;align-items:center;justify-content:center;
+    line-height:1.2;
+  }
+  .week-cell.head{
+    background:var(--black);
+    color:#fff;
+    font-weight:700;
+  }
+  .week-cell.module-label{
+    background:var(--black);
+    color:#fff;
+    font-weight:700;
+    justify-content:flex-start;
+    padding-left:6px;
+    text-align:left;
+  }
+  .week-cell.hit{color:var(--red-dark);font-weight:700;}
+
+  .foot-note{
+    padding:16px 18px 0;
+    font-size:11px;
+    color:var(--muted);
+    line-height:1.5;
+  }
+
+  .seq-toggle{
+    background:none;
+    border:1px solid var(--red);
+    color:var(--red-dark);
+    font-family:inherit;
+    font-size:12px;
+    font-weight:700;
+    padding:5px 10px;
+    border-radius:999px;
+    margin-top:8px;
+    cursor:pointer;
+  }
+
+  .modal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.55);
+    display:flex;
+    align-items:flex-end;
+    z-index:50;
+  }
+  .modal-sheet{
+    background:var(--paper);
+    width:100%;
+    max-height:82vh;
+    overflow-y:auto;
+    border-radius:16px 16px 0 0;
+    padding:18px 16px 26px;
+  }
+  .modal-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-bottom:4px;
+  }
+  .modal-title{
+    font-size:19px;
+    font-weight:800;
+    margin:0;
+  }
+  .modal-sub{
+    font-size:12px;
+    color:var(--muted);
+    margin:2px 0 14px;
+  }
+  .modal-close{
+    background:var(--black);
+    color:#fff;
+    border:none;
+    width:28px;height:28px;
+    border-radius:50%;
+    font-size:15px;
+    line-height:1;
+    cursor:pointer;
+    flex:0 0 28px;
+  }
+  .step-row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    padding:9px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .step-num{
+    width:22px;height:22px;
+    border-radius:50%;
+    background:var(--black);
+    color:#fff;
+    font-size:11px;
+    font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+    flex:0 0 22px;
+  }
+  .step-name{font-size:14px;font-weight:700;flex:1;}
+  .step-vol{font-size:12px;color:var(--muted);white-space:nowrap;}
+</style>
+</head>
+<body>
+<div class="app" id="app"></div>
+
+<script>
+/* ---------------- DATA (fetched live) ---------------- */
+/* CONTROL_CENTER, MASTER_CALENDAR, SET_META now live in data.json, not here.
+   Update the program by replacing data.json on the server -- this file
+   (index.html) almost never needs to change again. Every visitor gets
+   the current data on their next page load / refresh. */
+const DAYS = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+let CONTROL_CENTER = {};
+let MASTER_CALENDAR = {};
+let SET_META = {};
+let dataLoaded = false;
+let dataLoadError = false;
+
+async function loadProgramData(){
+  try{
+    const res = await fetch('./data.json', {cache: "no-store"});
+    if(!res.ok) throw new Error("bad response");
+    const data = await res.json();
+    CONTROL_CENTER = data.controlCenter || {};
+    MASTER_CALENDAR = data.masterCalendar || {};
+    SET_META = data.setMeta || {};
+    dataLoaded = true;
+  }catch(e){
+    dataLoadError = true;
+  }
+  render();
+}
+
+/* ---------------- APP STATE ---------------- */
+let currentTab = "today";
+let currentDay = DAYS[new Date().getDay() === 0 ? 6 : new Date().getDay()-1];
+let checks = {};
+let storageReady = false;
+let openSequenceId = null;
+
+async function loadChecks(){
+  try{
+    const raw = localStorage.getItem('varsity-prep-checks-v1');
+    checks = raw ? JSON.parse(raw) : {};
+  }catch(e){ checks = {}; }
+  storageReady = true;
+  render();
+}
+
+async function saveChecks(){
+  try{ localStorage.setItem('varsity-prep-checks-v1', JSON.stringify(checks)); }
+  catch(e){ /* non-fatal -- e.g. private browsing mode */ }
+}
+
+function toggleDrill(day, drillId){
+  const key = day+"::"+drillId;
+  checks[key] = !checks[key];
+  saveChecks();
+  render();
+}
+
+function resolveDay(day){
+  const modules = MASTER_CALENDAR[day] || {};
+  const result = [];
+  Object.keys(modules).forEach(moduleName=>{
+    const setNames = modules[moduleName];
+    const items = [];
+    setNames.forEach(setName=>{
+      const setDrills = CONTROL_CENTER[setName] || [];
+      const meta = SET_META[setName];
+      if(meta && meta.mode === "sequence"){
+        items.push({
+          type:"sequence",
+          id:"seq_"+setName.replace(/\s+/g,'_'),
+          setName,
+          description: meta.description || (setDrills.length+"-step sequence"),
+          video: meta.video,
+          steps: setDrills
+        });
+      } else {
+        setDrills.forEach((d,i)=>{
+          items.push({
+            type:"drill",
+            id: setName.replace(/\s+/g,'_')+"_"+i,
+            setName,
+            ...d
+          });
+        });
+      }
+    });
+    if(items.length) result.push({moduleName, items});
+  });
+  return result;
+}
+
+function esc(s){ return String(s).replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+
+function renderDayStrip(){
+  return `<div class="day-strip">${DAYS.map(d=>{
+    const isRest = resolveDay(d).length === 0;
+    return `<div class="day-chip ${d===currentDay?'active':''}" data-day="${d}">${d.slice(0,3)}${isRest?' <span class="rest-tag">· rest</span>':''}</div>`;
+  }).join('')}</div>`;
+}
+
+function renderToday(){
+  const modules = resolveDay(currentDay);
+  let totalItems = 0, doneItems = 0;
+  modules.forEach(m=>m.items.forEach(it=>{
+    totalItems++;
+    if(checks[currentDay+"::"+it.id]) doneItems++;
+  }));
+
+  let html = renderDayStrip();
+
+  if(modules.length === 0){
+    html += `<div class="rest-card"><strong>Rest Day</strong>Recovery is part of the program. Nothing scheduled today.</div>`;
+    return html;
+  }
+
+  html += `<div class="progress-row">
+    <div class="progress-bar"><div class="progress-fill" style="width:${totalItems? (doneItems/totalItems*100):0}%"></div></div>
+    <div class="progress-label">${doneItems}/${totalItems} done</div>
+  </div>`;
+
+  modules.forEach(m=>{
+    html += `<div class="module">
+      <div class="module-bar"><span>${esc(m.moduleName)}</span><span class="count">${m.items.length} item${m.items.length>1?'s':''}</span></div>`;
+    m.items.forEach(it=>{
+      const key = currentDay+"::"+it.id;
+      const isDone = !!checks[key];
+      if(it.type === "sequence"){
+        html += `<div class="drill-card">
+          <div class="checkbox ${isDone?'checked':''}" data-toggle="${it.id}"></div>
+          <div class="drill-main">
+            <p class="drill-name ${isDone?'done':''}">${esc(it.setName)}</p>
+            <p class="drill-meta">${esc(it.description)}</p>
+            <button class="seq-toggle" data-seq="${it.id}">▸ View sequence (${it.steps.length})</button>
+          </div>
+        </div>`;
+      } else {
+        html += `<div class="drill-card">
+          <div class="checkbox ${isDone?'checked':''}" data-toggle="${it.id}"></div>
+          <div class="drill-main">
+            <span class="drill-set-tag">${esc(it.setName)}</span>
+            <p class="drill-name ${isDone?'done':''}">${esc(it.name)}</p>
+            <p class="drill-meta">${esc(it.volume||'')}${it.notes? ' · '+esc(it.notes):''}</p>
+            ${it.video? `<a class="drill-link" href="${it.video}" data-nofollow>▶ Watch demo</a>`:''}
+          </div>
+        </div>`;
+      }
+    });
+    html += `</div>`;
+  });
+
+  html += `<p class="foot-note">Daily Program pulled automatically from the Master Calendar + Control Center for ${esc(currentDay)}. Check off an item to track progress — it's saved on this device.</p>`;
+  return html;
+}
+
+function findSequence(id){
+  for(const day of DAYS){
+    const modules = resolveDay(day);
+    for(const m of modules){
+      for(const it of m.items){
+        if(it.type === "sequence" && it.id === id) return it;
+      }
+    }
+  }
+  return null;
+}
+
+function renderSequenceModal(){
+  if(!openSequenceId) return "";
+  const seq = findSequence(openSequenceId);
+  if(!seq) return "";
+  let html = `<div class="modal-overlay" data-close-modal="1">
+    <div class="modal-sheet" data-stop="1">
+      <div class="modal-head">
+        <div>
+          <p class="modal-title">${esc(seq.setName)}</p>
+          <p class="modal-sub">${esc(seq.description)}${seq.video? ' · <a class="drill-link" href="'+seq.video+'">▶ Watch demo</a>':''}</p>
+        </div>
+        <button class="modal-close" data-close-modal="1">✕</button>
+      </div>`;
+  seq.steps.forEach((s,i)=>{
+    html += `<div class="step-row">
+      <div class="step-num">${i+1}</div>
+      <div class="step-name">${esc(s.name)}${s.video? ` &nbsp;<a class="drill-link" style="margin-top:0;" href="${s.video}">▶</a>`:''}</div>
+      <div class="step-vol">${esc(s.volume||'')}</div>
+    </div>`;
+  });
+  html += `</div></div>`;
+  return html;
+}
+
+function renderWeek(){
+  const allModules = [...new Set(DAYS.flatMap(d=>Object.keys(MASTER_CALENDAR[d]||{})))];
+  let html = `<div class="week-wrap"><div class="week-grid">`;
+  html += `<div class="week-cell head"></div>`;
+  DAYS.forEach(d=> html += `<div class="week-cell head">${d.slice(0,3)}</div>`);
+  allModules.forEach(mod=>{
+    html += `<div class="week-cell module-label">${esc(mod)}</div>`;
+    DAYS.forEach(d=>{
+      const has = MASTER_CALENDAR[d] && MASTER_CALENDAR[d][mod];
+      html += `<div class="week-cell ${has?'hit':''}">${has?'●':''}</div>`;
+    });
+  });
+  html += `</div><p class="foot-note">This is the coach's view: what module fires on which day. Tap a day up top to see the resolved daily workout.</p></div>`;
+  return html;
+}
+
+function render(){
+  const app = document.getElementById('app');
+
+  if(!dataLoaded && !dataLoadError){
+    app.innerHTML = `<div class="hero"><p class="hero-eyebrow">VARSITY PREP</p><h1 class="hero-title">Training Program</h1></div>
+      <div class="rest-card" style="margin:18px 14px;"><strong>Loading program…</strong></div>`;
+    return;
+  }
+  if(dataLoadError){
+    app.innerHTML = `<div class="hero"><p class="hero-eyebrow">VARSITY PREP</p><h1 class="hero-title">Training Program</h1></div>
+      <div class="rest-card" style="margin:18px 14px;"><strong>Couldn't load today's program</strong>Check your connection and reload the page.</div>`;
+    return;
+  }
+
+  app.innerHTML = `
+    <div class="hero">
+      <p class="hero-eyebrow">VARSITY PREP</p>
+      <h1 class="hero-title">Training Program</h1>
+      <p class="hero-sub">${currentTab==='today' ? currentDay+" — today's work" : "Week at a glance"}</p>
+    </div>
+    <div class="tabs">
+      <button class="tab ${currentTab==='today'?'active':''}" data-tab="today">Daily Program</button>
+      <button class="tab ${currentTab==='week'?'active':''}" data-tab="week">Master Calendar</button>
+    </div>
+    ${currentTab==='today' ? renderToday() : renderWeek()}
+    ${renderSequenceModal()}
+  `;
+
+  app.querySelectorAll('[data-tab]').forEach(el=>{
+    el.addEventListener('click', ()=>{ currentTab = el.dataset.tab; render(); });
+  });
+  app.querySelectorAll('[data-day]').forEach(el=>{
+    el.addEventListener('click', ()=>{ currentDay = el.dataset.day; render(); });
+  });
+  app.querySelectorAll('[data-toggle]').forEach(el=>{
+    el.addEventListener('click', ()=>{ toggleDrill(currentDay, el.dataset.toggle); });
+  });
+  app.querySelectorAll('[data-seq]').forEach(el=>{
+    el.addEventListener('click', ()=>{ openSequenceId = el.dataset.seq; render(); });
+  });
+  app.querySelectorAll('[data-close-modal]').forEach(el=>{
+    el.addEventListener('click', (e)=>{ if(e.target===el){ openSequenceId = null; render(); } });
+  });
+  const sheet = app.querySelector('[data-stop]');
+  if(sheet) sheet.addEventListener('click', e=> e.stopPropagation());
+}
+
+loadProgramData().then(loadChecks);
+</script>
+</body>
+</html>
