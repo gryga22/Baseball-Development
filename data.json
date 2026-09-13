@@ -7,7 +7,7 @@
         "notes": "Can do forwards, backwards, eyes close"
       },
       {
-        "name": "2 in the hole",
+        "name": "2 In the hole",
         "volume": "15 - 20 seconds",
         "notes": "Can do forwards, backwards, eyes close"
       },
@@ -202,7 +202,7 @@
         "notes": "Use quick wrist action with a towel or light ball."
       }
     ],
-    "Explosive Activation  -1": [
+    "Explosive Activation -1": [
       {
         "name": "Jump squats",
         "volume": "2 x 5"
@@ -220,7 +220,7 @@
         "volume": "2 x 5 each side"
       },
       {
-        "name": "Bird dog",
+        "name": "Bird Dog",
         "volume": "2 x 8"
       }
     ],
@@ -354,7 +354,7 @@
         "notes": "Use quick wrist action with a towel or light ball."
       }
     ],
-    "Explosive Activation  -2": [
+    "Explosive Activation -2": [
       {
         "name": "Jump squats",
         "volume": "2 x 5"
@@ -372,7 +372,7 @@
         "volume": "2 x 5 each side"
       },
       {
-        "name": "Bird dog",
+        "name": "Bird Dog",
         "volume": "2 x 8"
       }
     ],
@@ -863,20 +863,29 @@
         "notes": "Use coordinated posture and controlled rhythm."
       }
     ],
-    "Hitting Routine": [
-      {
-        "name": "Tee"
-      },
-      {
-        "name": "Flips"
-      },
-      {
-        "name": "Machine"
-      }
-    ],
     "Tee": [
       {
         "name": "Tee"
+      },
+      {
+        "name": "Hands Isolation",
+        "volume": "3-5 swings each. X 2"
+      },
+      {
+        "name": "Feet Together, 3 second stride",
+        "volume": "3-5 swings each. X 2"
+      },
+      {
+        "name": "Back Stride (optional)",
+        "volume": "3-5 swings each. X 2"
+      },
+      {
+        "name": "High Tee",
+        "volume": "5-7 swings X 2"
+      },
+      {
+        "name": "Basic Tee (middle, pull, away)",
+        "volume": "3-5 swings each. X 2"
       }
     ],
     "Flips": [
@@ -888,18 +897,663 @@
       {
         "name": "Machine"
       }
+    ],
+    "Baseball Full Body A": [
+      {
+        "name": "90/90 hip switches",
+        "volume": "8/side",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Adductor rockbacks",
+        "volume": "8/side",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Ankle rocks",
+        "volume": "10/side",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Glute bridge",
+        "volume": "10 reps",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Dead bug",
+        "volume": "6/side",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "A-march",
+        "volume": "10/side",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "10-yard acceleration",
+        "volume": "4 \u00d7 10 yd",
+        "notes": "Take full recovery; focus on horizontal force, not conditioning."
+      },
+      {
+        "name": "Leg press / hack squat",
+        "volume": "4 \u00d7 5\u20137",
+        "notes": "Choose one variation."
+      },
+      {
+        "name": "DB Romanian deadlift",
+        "volume": "3 \u00d7 6\u20138",
+        "notes": "Lower-body strength."
+      },
+      {
+        "name": "DB bench press",
+        "volume": "3 \u00d7 6\u20138",
+        "notes": "Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Chest-supported DB row",
+        "volume": "3 \u00d7 8",
+        "notes": "Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Bulgarian split squat",
+        "volume": "2 \u00d7 6\u20138/leg",
+        "notes": "Single-leg strength."
+      },
+      {
+        "name": "Pallof press",
+        "volume": "2 \u00d7 8/side",
+        "notes": "Core stability."
+      },
+      {
+        "name": "Suitcase carry",
+        "volume": "2 \u00d7 25 yd/side",
+        "notes": "Core and carry."
+      },
+      {
+        "name": "Face pull",
+        "volume": "2 \u00d7 12\u201315",
+        "notes": "Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      }
+    ],
+    "Baseball Full Body B": [
+      {
+        "name": "Movement prep",
+        "volume": "5\u20138 min",
+        "notes": "Keep this session moderate; it is not another Monday."
+      },
+      {
+        "name": "Countermovement jump",
+        "volume": "4 \u00d7 3",
+        "notes": "Take full recovery between quality efforts."
+      },
+      {
+        "name": "Skater jump",
+        "volume": "3 \u00d7 4/side",
+        "notes": "Lateral power."
+      },
+      {
+        "name": "Medicine-ball rotational throw",
+        "volume": "4 \u00d7 4/side",
+        "notes": "Primary rotational-power option. Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Cable rotational punch",
+        "volume": "4 \u00d7 5/side",
+        "notes": "Alternative only when no medicine ball is available. Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Reverse lunge",
+        "volume": "3 \u00d7 6/leg",
+        "notes": "Moderate lower-body work."
+      },
+      {
+        "name": "Leg curl",
+        "volume": "3 \u00d7 8\u201310",
+        "notes": "Use moderate weight."
+      },
+      {
+        "name": "Single-arm cable row",
+        "volume": "3 \u00d7 8/side",
+        "notes": "Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Half-kneeling single-arm cable press",
+        "volume": "3 \u00d7 8/side",
+        "notes": "Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Cable external rotation",
+        "volume": "2 \u00d7 12\u201315",
+        "notes": "Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Cable chop",
+        "volume": "2 \u00d7 8/side",
+        "notes": "Core rotation. Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      }
+    ],
+    "Baseball Full Body C": [
+      {
+        "name": "Broad jump",
+        "volume": "3 \u00d7 2",
+        "notes": "Quality reps with full recovery."
+      },
+      {
+        "name": "DB goblet squat / leg press",
+        "volume": "3 \u00d7 5\u20136",
+        "notes": "Choose one variation."
+      },
+      {
+        "name": "DB Romanian deadlift",
+        "volume": "3 \u00d7 6",
+        "notes": "Lower-body strength."
+      },
+      {
+        "name": "Incline DB press",
+        "volume": "3 \u00d7 6\u20138",
+        "notes": "Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Lat pulldown",
+        "volume": "3 \u00d7 8",
+        "notes": "Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Step-up",
+        "volume": "2 \u00d7 6/leg",
+        "notes": "Single-leg strength."
+      },
+      {
+        "name": "Light DB push press",
+        "volume": "3 \u00d7 4",
+        "notes": "Rapid force production, not a strength grind. Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Cable chop or lift",
+        "volume": "3 \u00d7 6/side",
+        "notes": "Choose one pattern. Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Farmer carry",
+        "volume": "2 \u00d7 30\u201340 yd",
+        "notes": "Carry with controlled posture."
+      }
+    ],
+    "Baseball Athletic Optional": [
+      {
+        "name": "10-yard acceleration",
+        "volume": "4 reps",
+        "notes": "Optional only when healthy and recovered; take full recovery."
+      },
+      {
+        "name": "20-yard acceleration",
+        "volume": "3 reps",
+        "notes": "Optional only when healthy and recovered; take full recovery."
+      },
+      {
+        "name": "Broad jump",
+        "volume": "2 \u00d7 2",
+        "notes": "Optional quality reps."
+      },
+      {
+        "name": "Bike intervals",
+        "volume": "6 \u00d7 20 sec hard / 100 sec easy",
+        "notes": "Optional conditioning. If baseball is scheduled, baseball wins."
+      }
+    ],
+    "Baseball Movement Micro-Dose": [
+      {
+        "name": "Band pull-apart",
+        "volume": "2 rounds \u00d7 15",
+        "notes": "Optional 10-minute maintenance/preparation routine."
+      },
+      {
+        "name": "Scap push-up",
+        "volume": "2 rounds \u00d7 10",
+        "notes": "Optional 10-minute maintenance/preparation routine. Healthy-athlete template only; modify or omit based on current elbow rehab and return-to-throwing status."
+      },
+      {
+        "name": "Dead bug",
+        "volume": "2 rounds \u00d7 6/side",
+        "notes": "Optional 10-minute maintenance/preparation routine."
+      },
+      {
+        "name": "90/90 hip switches",
+        "volume": "2 rounds \u00d7 6/side",
+        "notes": "Optional 10-minute maintenance/preparation routine."
+      },
+      {
+        "name": "Calf raise",
+        "volume": "2 rounds \u00d7 15",
+        "notes": "Optional 10-minute maintenance/preparation routine."
+      },
+      {
+        "name": "Hip airplane",
+        "volume": "2 rounds \u00d7 5/side",
+        "notes": "Optional 10-minute maintenance/preparation routine."
+      }
+    ],
+    "Squat (pick 1-2)": [
+      {
+        "name": "Goblet squat",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Leg press",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Hack squat",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Bodyweight squat",
+        "volume": "8-12 reps, 3 sets"
+      }
+    ],
+    "Push (pick 1-2)": [
+      {
+        "name": "DB bench",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Machine chest press",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Push-ups",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Incline DB press",
+        "volume": "8-12 reps, 3 sets"
+      }
+    ],
+    "Pull (pick 1-2)": [
+      {
+        "name": "Lat pulldown",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Seated cable row",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Machine row",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "DB row",
+        "volume": "8-12 reps, 3 sets"
+      }
+    ],
+    "Hinge (pick 1-2)": [
+      {
+        "name": "DB Romanian deadlift",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Cable pull-through",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Machine hip extension",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Good morning with very light load",
+        "volume": "8-12 reps, 3 sets"
+      }
+    ],
+    "Single Leg (pick 1-2)": [
+      {
+        "name": "Reverse lunge",
+        "volume": "6-8 per leg x 2"
+      },
+      {
+        "name": "Step-up",
+        "volume": "6-8 per leg x 2"
+      },
+      {
+        "name": "Bulgarian split squat",
+        "volume": "6-8 per leg x 2"
+      },
+      {
+        "name": "Walking lunge",
+        "volume": "6-8 per leg x 2"
+      }
+    ],
+    "Core/Carry (pick 1-2)": [
+      {
+        "name": "Farmer carry",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Suitcase carry",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Pallof press",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Dead bug",
+        "volume": "8-12 reps, 3 sets"
+      },
+      {
+        "name": "Plank",
+        "volume": "8-12 reps, 3 sets"
+      }
+    ],
+    "Power": [
+      {
+        "name": "Broad jump \u2014 3 \u00d7 2",
+        "volume": "20\u201330 sec or 8\u201310/side"
+      },
+      {
+        "name": "Vertical jump \u2014 3 \u00d7 3",
+        "volume": "20\u201330 sec or 8\u201310/side"
+      },
+      {
+        "name": "10-yard acceleration \u2014 4 reps",
+        "volume": "20\u201330 sec or 8\u201310/side"
+      },
+      {
+        "name": "Medicine-ball throw \u2014 3 \u00d7 4",
+        "volume": "20\u201330 sec or 8\u201310/side"
+      }
+    ],
+    "Athlete Foundation A": [
+      {
+        "name": "Bodyweight squat",
+        "volume": "2 rounds \u00d7 10",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Reverse lunge",
+        "volume": "2 rounds \u00d7 5/side",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Glute bridge",
+        "volume": "2 rounds \u00d7 10",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Dead bug",
+        "volume": "2 rounds \u00d7 6/side",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Band pull-apart",
+        "volume": "2 rounds \u00d7 12",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Ankle rocks",
+        "volume": "2 rounds \u00d7 8/side",
+        "notes": "Warm-up."
+      },
+      {
+        "name": "Leg press",
+        "volume": "3 \u00d7 8",
+        "notes": "Squat pattern. Eventually progress toward a DB squat or hack squat as appropriate. Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "DB Romanian deadlift",
+        "volume": "3 \u00d7 8",
+        "notes": "Learn this hinge pattern well. Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "DB bench press",
+        "volume": "3 \u00d7 8",
+        "notes": "Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "Lat pulldown",
+        "volume": "3 \u00d7 8\u201310",
+        "notes": "Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "Reverse lunge",
+        "volume": "2 \u00d7 8/leg",
+        "notes": "Single-leg strength. Prioritize control and technique."
+      },
+      {
+        "name": "Pallof press",
+        "volume": "2 \u00d7 10/side",
+        "notes": "Brace and resist rotation."
+      },
+      {
+        "name": "Farmer carry",
+        "volume": "2 \u00d7 30 yd",
+        "notes": "Walk tall with controlled posture."
+      }
+    ],
+    "Athlete Foundation B": [
+      {
+        "name": "Movement warm-up",
+        "volume": "5\u20138 min",
+        "notes": "Prepare to move athletically; this session should not leave the athlete crushed."
+      },
+      {
+        "name": "Countermovement jump",
+        "volume": "4 \u00d7 3",
+        "notes": "Jump, land, and stabilize; use quality repetitions."
+      },
+      {
+        "name": "Skater jump",
+        "volume": "3 \u00d7 4/side",
+        "notes": "Control the lateral landing."
+      },
+      {
+        "name": "10-yard starts",
+        "volume": "5 reps",
+        "notes": "Primary acceleration option when turf is available; take full recovery."
+      },
+      {
+        "name": "Incline treadmill",
+        "volume": "5 \u00d7 10 sec",
+        "notes": "Acceleration alternative only when turf is unavailable."
+      },
+      {
+        "name": "Step-up",
+        "volume": "3 \u00d7 8/leg",
+        "notes": "Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "Push-ups",
+        "volume": "3 \u00d7 quality reps",
+        "notes": "Do not go to failure; stop when technique begins to decline."
+      },
+      {
+        "name": "Seated cable row",
+        "volume": "3 \u00d7 10",
+        "notes": "Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "Dead bug",
+        "volume": "2 \u00d7 8/side",
+        "notes": "Maintain trunk control."
+      },
+      {
+        "name": "Mobility cooldown",
+        "volume": "5\u201310 min",
+        "notes": "Finish feeling athletic, not crushed."
+      }
+    ],
+    "Athlete Foundation C": [
+      {
+        "name": "Broad jump",
+        "volume": "3 \u00d7 2",
+        "notes": "Take full recovery and use quality repetitions."
+      },
+      {
+        "name": "Goblet squat",
+        "volume": "3 \u00d7 8",
+        "notes": "Primary squat option. Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "Leg press",
+        "volume": "3 \u00d7 8",
+        "notes": "Alternative to goblet squat when more appropriate; do not perform both. Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "DB Romanian deadlift",
+        "volume": "3 \u00d7 8",
+        "notes": "Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "Incline DB press",
+        "volume": "3 \u00d7 8",
+        "notes": "Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "Chest-supported DB row",
+        "volume": "3 \u00d7 8\u201310",
+        "notes": "Prioritize technique; stop with about 2\u20133 good reps in reserve. Weeks 1\u20132: use 2 sets for most strength exercises; progress to the listed volume from week 3."
+      },
+      {
+        "name": "Bulgarian split squat",
+        "volume": "2 \u00d7 6\u20138/leg",
+        "notes": "Single-leg strength; maintain balance and control."
+      },
+      {
+        "name": "Farmer carry",
+        "volume": "2 \u00d7 30\u201340 yd",
+        "notes": "Walk tall with controlled posture."
+      },
+      {
+        "name": "Hammer curls",
+        "volume": "2 \u00d7 10",
+        "notes": "Optional arm work."
+      },
+      {
+        "name": "Rope pressdowns",
+        "volume": "2 \u00d7 10",
+        "notes": "Optional arm work."
+      }
+    ],
+    "Athlete Play (pick 1)": [
+      {
+        "name": "Basketball",
+        "volume": "10\u201315 min",
+        "notes": "Choose one fun athletic option; keep it playful, not exhaustive."
+      },
+      {
+        "name": "Medicine-ball throws",
+        "volume": "10\u201315 min",
+        "notes": "Choose one fun athletic option; use quality throws."
+      },
+      {
+        "name": "Races",
+        "volume": "10\u201315 min",
+        "notes": "Choose one fun athletic option; allow full recovery."
+      },
+      {
+        "name": "Agility games",
+        "volume": "10\u201315 min",
+        "notes": "Choose one fun athletic option."
+      },
+      {
+        "name": "Jump challenges",
+        "volume": "10\u201315 min",
+        "notes": "Choose one fun athletic option; prioritize safe landings."
+      },
+      {
+        "name": "Sled pushes",
+        "volume": "10\u201315 min",
+        "notes": "Choose one fun athletic option when equipment is available."
+      },
+      {
+        "name": "Farmer carry challenges",
+        "volume": "10\u201315 min",
+        "notes": "Choose one fun athletic option; maintain good posture."
+      },
+      {
+        "name": "Reaction games",
+        "volume": "10\u201315 min",
+        "notes": "Choose one fun athletic option."
+      }
+    ],
+    "Front Toss": [
+      {
+        "name": "Hands Isolation",
+        "volume": "5 swings"
+      },
+      {
+        "name": "Feet Together, 3 second stride",
+        "volume": "5 swings"
+      },
+      {
+        "name": "Middle, pull, away",
+        "volume": "5 swings each"
+      }
+    ],
+    "BP/Machine": [
+      {
+        "name": "Hit, hit, hit"
+      }
+    ],
+    "Options": [
+      {
+        "name": "Drills: 1-hand"
+      },
+      {
+        "name": "Drills: short bat"
+      },
+      {
+        "name": "Drills: knee drop"
+      },
+      {
+        "name": "Drills: Stride/Separation"
+      },
+      {
+        "name": "Drills: Stride/Pinch"
+      },
+      {
+        "name": "Drills: Take/Hit"
+      },
+      {
+        "name": "Toss: Zone toss"
+      },
+      {
+        "name": "Toss: Fast/curve"
+      },
+      {
+        "name": "Toss: Angle toss"
+      },
+      {
+        "name": "BP: One-strike"
+      },
+      {
+        "name": "BP: hitter's count"
+      },
+      {
+        "name": "BP: Spoil"
+      },
+      {
+        "name": "BP: extremes"
+      },
+      {
+        "name": "BP: Hit and run"
+      },
+      {
+        "name": "BP: curves/pitch focus"
+      },
+      {
+        "name": "Bunting"
+      }
     ]
   },
   "masterCalendar": {
     "Monday": {
       "Arm Care + Mobility": [
-        "Explosive Activation  -1"
+        "Explosive Activation -1",
+        "Rotator Cuff -1"
       ],
       "Dynamic Warmup": [
         "Warmup"
-      ],
-      "External Rotations (band)": [
-        "Rotator Cuff -1"
       ],
       "Footwork": [
         "Ladders"
@@ -907,10 +1561,15 @@
       "Infield": [
         "Hands routine"
       ],
+      "Workout / Fitness Edge": [
+        "Baseball Full Body A",
+        "Athlete Foundation A"
+      ],
       "Hitting": [
         "Tee",
-        "Flips",
-        "Machine"
+        "Front Toss",
+        "BP/Machine",
+        "Options"
       ]
     },
     "Tuesday": {
@@ -930,16 +1589,27 @@
       "Infield": [
         "Posture Series"
       ],
+      "Workout / Fitness Edge": [
+        "Baseball Movement Micro-Dose",
+        "Squat (pick 1-2)",
+        "Push (pick 1-2)",
+        "Pull (pick 1-2)",
+        "Hinge (pick 1-2)",
+        "Single Leg (pick 1-2)",
+        "Core/Carry (pick 1-2)",
+        "Power"
+      ],
       "Hitting": [
         "Tee",
-        "Flips",
-        "Machine"
+        "Front Toss",
+        "BP/Machine",
+        "Options"
       ]
     },
     "Wednesday": {
       "Arm Care + Mobility": [
         "Arm Speed Support -1",
-        "Explosive Activation  -2"
+        "Explosive Activation -2"
       ],
       "Dynamic Warmup": [
         "Warmup"
@@ -950,10 +1620,15 @@
       "Infield": [
         "Big 5 + Challenge"
       ],
+      "Workout / Fitness Edge": [
+        "Baseball Full Body B",
+        "Athlete Foundation B"
+      ],
       "Hitting": [
         "Tee",
-        "Flips",
-        "Machine"
+        "Front Toss",
+        "BP/Machine",
+        "Options"
       ]
     },
     "Thursday": {
@@ -970,10 +1645,21 @@
       "Infield": [
         "Posture Series"
       ],
+      "Workout / Fitness Edge": [
+        "Baseball Movement Micro-Dose",
+        "Squat (pick 1-2)",
+        "Push (pick 1-2)",
+        "Pull (pick 1-2)",
+        "Hinge (pick 1-2)",
+        "Single Leg (pick 1-2)",
+        "Core/Carry (pick 1-2)",
+        "Power"
+      ],
       "Hitting": [
         "Tee",
-        "Flips",
-        "Machine"
+        "Front Toss",
+        "BP/Machine",
+        "Options"
       ]
     },
     "Friday": {
@@ -983,10 +1669,15 @@
       "Infield": [
         "Hands routine"
       ],
+      "Workout / Fitness Edge": [
+        "Baseball Full Body C",
+        "Athlete Foundation C"
+      ],
       "Hitting": [
         "Tee",
-        "Flips",
-        "Machine"
+        "Front Toss",
+        "BP/Machine",
+        "Options"
       ]
     },
     "Saturday": {
@@ -1003,10 +1694,22 @@
         "Hands routine",
         "Big 5 + Challenge"
       ],
+      "Workout / Fitness Edge": [
+        "Baseball Athletic Optional",
+        "Squat (pick 1-2)",
+        "Push (pick 1-2)",
+        "Pull (pick 1-2)",
+        "Hinge (pick 1-2)",
+        "Single Leg (pick 1-2)",
+        "Core/Carry (pick 1-2)",
+        "Power",
+        "Athlete Play (pick 1)"
+      ],
       "Hitting": [
         "Tee",
-        "Flips",
-        "Machine"
+        "Front Toss",
+        "BP/Machine",
+        "Options"
       ]
     },
     "Sunday": {
@@ -1024,8 +1727,9 @@
       ],
       "Hitting": [
         "Tee",
-        "Flips",
-        "Machine"
+        "Front Toss",
+        "BP/Machine",
+        "Options"
       ]
     }
   },
@@ -1054,7 +1758,7 @@
       "mode": "sequence",
       "description": "5-step sequence"
     },
-    "Explosive Activation  -1": {
+    "Explosive Activation -1": {
       "mode": "sequence",
       "description": "5-step sequence"
     },
@@ -1078,7 +1782,7 @@
       "mode": "sequence",
       "description": "5-step sequence"
     },
-    "Explosive Activation  -2": {
+    "Explosive Activation -2": {
       "mode": "sequence",
       "description": "5-step sequence"
     },
@@ -1118,6 +1822,82 @@
     "Big 5 + Challenge": {
       "mode": "sequence",
       "description": "8-step sequence"
+    },
+    "Baseball Full Body A": {
+      "mode": "sequence",
+      "description": "15-step sequence"
+    },
+    "Baseball Full Body B": {
+      "mode": "sequence",
+      "description": "11-step sequence"
+    },
+    "Baseball Full Body C": {
+      "mode": "sequence",
+      "description": "9-step sequence"
+    },
+    "Baseball Athletic Optional": {
+      "mode": "sequence",
+      "description": "4-step sequence"
+    },
+    "Baseball Movement Micro-Dose": {
+      "mode": "sequence",
+      "description": "6-step sequence"
+    },
+    "Squat (pick 1-2)": {
+      "mode": "sequence",
+      "description": "4-step sequence"
+    },
+    "Push (pick 1-2)": {
+      "mode": "sequence",
+      "description": "4-step sequence"
+    },
+    "Pull (pick 1-2)": {
+      "mode": "sequence",
+      "description": "4-step sequence"
+    },
+    "Hinge (pick 1-2)": {
+      "mode": "sequence",
+      "description": "4-step sequence"
+    },
+    "Single Leg (pick 1-2)": {
+      "mode": "sequence",
+      "description": "4-step sequence"
+    },
+    "Core/Carry (pick 1-2)": {
+      "mode": "sequence",
+      "description": "5-step sequence"
+    },
+    "Power": {
+      "mode": "sequence",
+      "description": "4-step sequence"
+    },
+    "Athlete Foundation A": {
+      "mode": "sequence",
+      "description": "13-step sequence"
+    },
+    "Athlete Foundation B": {
+      "mode": "sequence",
+      "description": "10-step sequence"
+    },
+    "Athlete Foundation C": {
+      "mode": "sequence",
+      "description": "10-step sequence"
+    },
+    "Athlete Play (pick 1)": {
+      "mode": "sequence",
+      "description": "8-step sequence"
+    },
+    "Tee": {
+      "mode": "sequence",
+      "description": "6-step sequence"
+    },
+    "Front Toss": {
+      "mode": "sequence",
+      "description": "3-step sequence"
+    },
+    "Options": {
+      "mode": "sequence",
+      "description": "16-step sequence"
     }
   }
 }
