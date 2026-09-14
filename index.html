@@ -438,18 +438,18 @@ function toggleDrill(day, drillId){
 }
 
 function resolveDay(day){
-  const modules = MASTER_CALENDAR[day] || {};
+  const blocks = MASTER_CALENDAR[day] || [];
   const result = [];
-  Object.keys(modules).forEach(moduleName=>{
-    const setNames = modules[moduleName];
+  blocks.forEach((block, blockIdx)=>{
     const items = [];
-    setNames.forEach(setName=>{
+    block.sets.forEach(setName=>{
       const setDrills = CONTROL_CENTER[setName] || [];
       const meta = SET_META[setName];
+      const idBase = "b"+blockIdx+"_"+setName.replace(/\s+/g,'_');
       if(meta && meta.mode === "sequence"){
         items.push({
           type:"sequence",
-          id:"seq_"+setName.replace(/\s+/g,'_'),
+          id:"seq_"+idBase,
           setName,
           description: meta.description || (setDrills.length+"-step sequence"),
           video: meta.video,
@@ -459,14 +459,14 @@ function resolveDay(day){
         setDrills.forEach((d,i)=>{
           items.push({
             type:"drill",
-            id: setName.replace(/\s+/g,'_')+"_"+i,
+            id: idBase+"_"+i,
             setName,
             ...d
           });
         });
       }
     });
-    if(items.length) result.push({moduleName, items});
+    if(items.length) result.push({moduleName: block.module, items});
   });
   return result;
 }
@@ -571,14 +571,14 @@ function renderSequenceModal(){
 }
 
 function renderWeek(){
-  const allModules = [...new Set(DAYS.flatMap(d=>Object.keys(MASTER_CALENDAR[d]||{})))];
+  const allModules = [...new Set(DAYS.flatMap(d=>(MASTER_CALENDAR[d]||[]).map(b=>b.module)))];
   let html = `<div class="week-wrap"><div class="week-grid">`;
   html += `<div class="week-cell head"></div>`;
   DAYS.forEach(d=> html += `<div class="week-cell head">${d.slice(0,3)}</div>`);
   allModules.forEach(mod=>{
     html += `<div class="week-cell module-label">${esc(mod)}</div>`;
     DAYS.forEach(d=>{
-      const has = MASTER_CALENDAR[d] && MASTER_CALENDAR[d][mod];
+      const has = (MASTER_CALENDAR[d]||[]).some(b=>b.module===mod);
       html += `<div class="week-cell ${has?'hit':''}">${has?'●':''}</div>`;
     });
   });

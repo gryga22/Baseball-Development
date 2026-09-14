@@ -1,6 +1,6 @@
 {
   "controlCenter": {
-    "Ladders": [
+    "Footwork - Ladders": [
       {
         "name": "1 In the hole",
         "volume": "15 - 20 seconds",
@@ -62,7 +62,7 @@
         "notes": "Can do forwards, backwards, eyes close"
       }
     ],
-    "Dots": [
+    "Footwork - Dots": [
       {
         "name": "Up and Back",
         "volume": "10 sec",
@@ -94,7 +94,67 @@
         "notes": "Combine the up-and-back versions of drills 1 through 5."
       }
     ],
-    "Rotator Cuff -1": [
+    "Footwork - Quick Feet": [
+      {
+        "name": "Quick Feet",
+        "volume": "6 times. 2-3 sets"
+      },
+      {
+        "name": "Forward and Back",
+        "volume": "6 times. 2-3 sets"
+      },
+      {
+        "name": "Skaters Quick Feet",
+        "volume": "6 times. 2-3 sets"
+      },
+      {
+        "name": "Triangle Exchange",
+        "volume": "6 times. 2-3 sets"
+      },
+      {
+        "name": "Quick Feet / Slow Arms",
+        "volume": "6 times. 2-3 sets"
+      },
+      {
+        "name": "X Dots",
+        "volume": "4-6 times per leg. 2-3 sets"
+      }
+    ],
+    "V-Slot Activation": [
+      {
+        "name": "Clap V's - No Feet",
+        "volume": "5-7 reps"
+      },
+      {
+        "name": "Clap Into L Footwork (can vary by fielding position)",
+        "volume": "5-7 reps. 2 Sets"
+      },
+      {
+        "name": "Clap Into Step Through Footwork (can vary by fielding position)",
+        "volume": "5-7 reps. 2 Sets"
+      },
+      {
+        "name": "Dribbles Into V-Slot",
+        "volume": "5-7 reps"
+      },
+      {
+        "name": "Self-Toss Picks into V-Slot",
+        "volume": "5-7 reps"
+      },
+      {
+        "name": "Backhand Self-Toss Picks",
+        "volume": "5-7 reps"
+      },
+      {
+        "name": "Self-Toss Forehand into V-Slot",
+        "volume": "5-7 reps"
+      },
+      {
+        "name": "1/2 Bounce Throw Hand V-Slot",
+        "volume": "5-7 reps"
+      }
+    ],
+    "Rotator Cuff Activation + Flush": [
       {
         "name": "External Rotations (band)",
         "volume": "2 x 10",
@@ -121,7 +181,7 @@
         "notes": "Keep knees down and let the chest open."
       }
     ],
-    "Scapular Control -1": [
+    "Scapular Stability + Control": [
       {
         "name": "T/Y/I Raises",
         "volume": "2 x 10 each",
@@ -148,7 +208,7 @@
         "notes": "Keep back flat and core tight."
       }
     ],
-    "Arm Speed Support -1": [
+    "Explosive Arm Speed Support": [
       {
         "name": "Arm Circles",
         "volume": "20 sec each way",
@@ -175,7 +235,7 @@
         "notes": "Keep hips still; rotate through the upper back."
       }
     ],
-    "Stability -1": [
+    "Bulletproof Stability": [
       {
         "name": "T/Y/I Wall Holds",
         "volume": "2 x 20 sec each",
@@ -202,159 +262,29 @@
         "notes": "Use quick wrist action with a towel or light ball."
       }
     ],
-    "Explosive Activation -1": [
+    "Pre-Game Control & Rhythm": [
       {
-        "name": "Jump squats",
-        "volume": "2 x 5"
-      },
-      {
-        "name": "Lateral skater hops",
-        "volume": "2 x 5 each leg"
-      },
-      {
-        "name": "High knees in place",
-        "volume": "2 x 15 sec"
-      },
-      {
-        "name": "Side plank + reach",
-        "volume": "2 x 5 each side"
-      },
-      {
-        "name": "Bird Dog",
-        "volume": "2 x 8"
-      }
-    ],
-    "Explosive Movement -1": [
-      {
-        "name": "Sprint bounds x 2",
-        "volume": "2 x 10 yards"
-      },
-      {
-        "name": "Lunge to jump",
-        "volume": "2 x 5 each leg"
-      },
-      {
-        "name": "Broad jump",
-        "volume": "2 x 3"
-      },
-      {
-        "name": "Hip openers",
-        "volume": "2 x 6"
-      },
-      {
-        "name": "Plank to push-up",
-        "volume": "2 x 6"
-      }
-    ],
-    "Rotator Cuff -2": [
-      {
-        "name": "External Rotations (band)",
+        "name": "Elbow Taps \u2013 2 x 10",
         "volume": "2 x 10",
-        "notes": "Elbow tucked; rotate outward slowly."
+        "notes": "Loosen up elbows and shoulders by tapping shoulders with hands and raising/returning arms. Maintain upright posture."
       },
       {
-        "name": "Internal Rotations (band)",
-        "volume": "2 x 10",
-        "notes": "Keep elbow tight; move slowly and controlled."
+        "name": "Arm Circles \u2013 15 sec each direction",
+        "volume": "15 sec each direction",
+        "notes": "Do quick small-to-medium circles for 15 seconds forward and backward to activate arms before throwing."
       },
       {
-        "name": "Reverse Flys (band)",
-        "volume": "2 x 10",
-        "notes": "Arms straight; squeeze shoulder blades."
-      },
-      {
-        "name": "Arm Circles",
-        "volume": "20 sec each way",
-        "notes": "Start small and fast; gradually increase size."
+        "name": "Wall Angels",
+        "volume": "2 x 8 slow",
+        "notes": "Stand flat to wall and move arms up and down like snow angels. Focus on shoulder control and posture."
       },
       {
         "name": "Shoulder Sweep Stretch",
         "volume": "6 each side",
-        "notes": "Keep knees down and let the chest open."
+        "notes": "Same as Monday. Loosen up upper back and shoulder rotation before game day."
       }
     ],
-    "Scapular Control -2": [
-      {
-        "name": "T/Y/I Raises",
-        "volume": "2 x 10 each",
-        "notes": "Squeeze shoulder blades in every position."
-      },
-      {
-        "name": "Wall Scap Slides",
-        "volume": "2 x 10",
-        "notes": "Maintain wall contact; do not arch the back."
-      },
-      {
-        "name": "T/Y/I Wall Holds",
-        "volume": "15 sec each",
-        "notes": "Press into wall; pull shoulder blades down and in."
-      },
-      {
-        "name": "Elbow Taps",
-        "volume": "2 x 10",
-        "notes": "Stay upright; extend smoothly overhead."
-      },
-      {
-        "name": "Bird Dog",
-        "volume": "2 x 6 each side",
-        "notes": "Keep back flat and core tight."
-      }
-    ],
-    "Arm Speed Support -2": [
-      {
-        "name": "Arm Circles",
-        "volume": "20 sec each way",
-        "notes": "Build speed and endurance; reverse direction."
-      },
-      {
-        "name": "Reverse Flys",
-        "volume": "2 x 12 fast",
-        "notes": "Snap shoulder blades together each rep."
-      },
-      {
-        "name": "Wall Taps",
-        "volume": "3 x 10 sec",
-        "notes": "Tap rapidly side to side; keep core engaged."
-      },
-      {
-        "name": "Towel Snap Drill",
-        "volume": "2 x 5",
-        "notes": "Clean arm path; snap the towel out front."
-      },
-      {
-        "name": "Thoracic Mobility",
-        "volume": "6 reps",
-        "notes": "Keep hips still; rotate through the upper back."
-      }
-    ],
-    "Stability -2": [
-      {
-        "name": "T/Y/I Wall Holds",
-        "volume": "2 x 20 sec each",
-        "notes": "Keep core tight and avoid shrugging."
-      },
-      {
-        "name": "Wall Scap Slides",
-        "volume": "2 x 10",
-        "notes": "Use slow control and full range; do not arch."
-      },
-      {
-        "name": "Side Plank Reach-Throughs",
-        "volume": "2 x 5 each",
-        "notes": "Rotate gently while holding the plank."
-      },
-      {
-        "name": "Band External Rotations",
-        "volume": "2 x 10",
-        "notes": "Move smoothly; keep elbow fixed."
-      },
-      {
-        "name": "Wrist Flicks",
-        "volume": "3 x 20 sec",
-        "notes": "Use quick wrist action with a towel or light ball."
-      }
-    ],
-    "Explosive Activation -2": [
+    "Explosive Activation": [
       {
         "name": "Jump squats",
         "volume": "2 x 5"
@@ -376,7 +306,7 @@
         "volume": "2 x 8"
       }
     ],
-    "Explosive Movement -2": [
+    "Explosive Movement": [
       {
         "name": "Sprint bounds x 2",
         "volume": "2 x 10 yards"
@@ -741,7 +671,7 @@
     ],
     "Big 5 + Challenge": [
       {
-        "name": "Hop series"
+        "name": "Hop series - wide base (3 zones)"
       },
       {
         "name": "3 step / 5 step"
@@ -764,6 +694,29 @@
       {
         "name": "10 DP turns",
         "video": "https://youtu.be/5e1wMQjUsJU"
+      }
+    ],
+    "Optional: Position Specific": [
+      {
+        "name": "1B Picks and Footwork"
+      },
+      {
+        "name": "Tags (w/ picks)"
+      },
+      {
+        "name": "Cuts/Relays"
+      },
+      {
+        "name": "Slow Rollers"
+      },
+      {
+        "name": "DP Feeds"
+      },
+      {
+        "name": "DP Turns"
+      },
+      {
+        "name": "Jeters"
       }
     ],
     "Yoga": [
@@ -796,6 +749,11 @@
         "name": "Reach Up",
         "volume": "12\u201324 sec hold",
         "notes": "Maintain posture and positioning throughout the hold."
+      },
+      {
+        "name": "Forward Lunge",
+        "volume": "4\u201312 reps each leg",
+        "notes": "Source wording retained; confirm whether \u201cForward Lunge\u201d was intended."
       },
       {
         "name": "Sumo Squat",
@@ -861,41 +819,6 @@
         "name": "High Knee Skip",
         "volume": "4\u201312 reps per exercise",
         "notes": "Use coordinated posture and controlled rhythm."
-      }
-    ],
-    "Tee": [
-      {
-        "name": "Tee"
-      },
-      {
-        "name": "Hands Isolation",
-        "volume": "3-5 swings each. X 2"
-      },
-      {
-        "name": "Feet Together, 3 second stride",
-        "volume": "3-5 swings each. X 2"
-      },
-      {
-        "name": "Back Stride (optional)",
-        "volume": "3-5 swings each. X 2"
-      },
-      {
-        "name": "High Tee",
-        "volume": "5-7 swings X 2"
-      },
-      {
-        "name": "Basic Tee (middle, pull, away)",
-        "volume": "3-5 swings each. X 2"
-      }
-    ],
-    "Flips": [
-      {
-        "name": "Flips"
-      }
-    ],
-    "Machine": [
-      {
-        "name": "Machine"
       }
     ],
     "Baseball Full Body A": [
@@ -1133,134 +1056,33 @@
         "notes": "Optional 10-minute maintenance/preparation routine."
       }
     ],
-    "Squat (pick 1-2)": [
+    "Full Body Workout": [
       {
-        "name": "Goblet squat",
+        "name": "Squat (goblet, leg press, hack squat, bodyweight)",
         "volume": "8-12 reps, 3 sets"
       },
       {
-        "name": "Leg press",
+        "name": "Push (bench, chest press, push-ups, incline press, flys)",
         "volume": "8-12 reps, 3 sets"
       },
       {
-        "name": "Hack squat",
+        "name": "Pull (lat pulldown cable row, machine row, DB row)",
         "volume": "8-12 reps, 3 sets"
       },
       {
-        "name": "Bodyweight squat",
-        "volume": "8-12 reps, 3 sets"
-      }
-    ],
-    "Push (pick 1-2)": [
-      {
-        "name": "DB bench",
+        "name": "Hinge (RDL, cable pull-through, machine hip extension, good mornings)",
         "volume": "8-12 reps, 3 sets"
       },
       {
-        "name": "Machine chest press",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Push-ups",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Incline DB press",
-        "volume": "8-12 reps, 3 sets"
-      }
-    ],
-    "Pull (pick 1-2)": [
-      {
-        "name": "Lat pulldown",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Seated cable row",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Machine row",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "DB row",
-        "volume": "8-12 reps, 3 sets"
-      }
-    ],
-    "Hinge (pick 1-2)": [
-      {
-        "name": "DB Romanian deadlift",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Cable pull-through",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Machine hip extension",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Good morning with very light load",
-        "volume": "8-12 reps, 3 sets"
-      }
-    ],
-    "Single Leg (pick 1-2)": [
-      {
-        "name": "Reverse lunge",
+        "name": "Single Leg (lunge/reverse, step-up, split squat, walking lunge)",
         "volume": "6-8 per leg x 2"
       },
       {
-        "name": "Step-up",
-        "volume": "6-8 per leg x 2"
-      },
-      {
-        "name": "Bulgarian split squat",
-        "volume": "6-8 per leg x 2"
-      },
-      {
-        "name": "Walking lunge",
-        "volume": "6-8 per leg x 2"
-      }
-    ],
-    "Core/Carry (pick 1-2)": [
-      {
-        "name": "Farmer carry",
+        "name": "Core/Carry (planks, farmer carry, suitcase carry, pallof press, deag bug)",
         "volume": "8-12 reps, 3 sets"
       },
       {
-        "name": "Suitcase carry",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Pallof press",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Dead bug",
-        "volume": "8-12 reps, 3 sets"
-      },
-      {
-        "name": "Plank",
-        "volume": "8-12 reps, 3 sets"
-      }
-    ],
-    "Power": [
-      {
-        "name": "Broad jump \u2014 3 \u00d7 2",
-        "volume": "20\u201330 sec or 8\u201310/side"
-      },
-      {
-        "name": "Vertical jump \u2014 3 \u00d7 3",
-        "volume": "20\u201330 sec or 8\u201310/side"
-      },
-      {
-        "name": "10-yard acceleration \u2014 4 reps",
-        "volume": "20\u201330 sec or 8\u201310/side"
-      },
-      {
-        "name": "Medicine-ball throw \u2014 3 \u00d7 4",
-        "volume": "20\u201330 sec or 8\u201310/side"
+        "name": "Power (broad jump, vertical jump, 10-yd accel, med ball throws)"
       }
     ],
     "Athlete Foundation A": [
@@ -1476,6 +1298,28 @@
         "notes": "Choose one fun athletic option."
       }
     ],
+    "Tee": [
+      {
+        "name": "Hands Isolation",
+        "volume": "3-5 swings each. X 2"
+      },
+      {
+        "name": "Feet Together, 3 second stride",
+        "volume": "3-5 swings each. X 2"
+      },
+      {
+        "name": "Back Stride (optional)",
+        "volume": "3-5 swings each. X 2"
+      },
+      {
+        "name": "High Tee",
+        "volume": "5-7 swings X 2"
+      },
+      {
+        "name": "Basic Tee (middle, pull, away)",
+        "volume": "3-5 swings each. X 2"
+      }
+    ],
     "Front Toss": [
       {
         "name": "Hands Isolation",
@@ -1488,11 +1332,14 @@
       {
         "name": "Middle, pull, away",
         "volume": "5 swings each"
+      },
+      {
+        "name": "Front toss (vary speed and location)"
       }
     ],
     "BP/Machine": [
       {
-        "name": "Hit, hit, hit"
+        "name": "Hit with purpose (vary speed and location)"
       }
     ],
     "Options": [
@@ -1513,6 +1360,9 @@
       },
       {
         "name": "Drills: Take/Hit"
+      },
+      {
+        "name": "Drills: Heavy/light bats"
       },
       {
         "name": "Toss: Zone toss"
@@ -1544,261 +1394,377 @@
       {
         "name": "Bunting"
       }
+    ],
+    "Lockdown Series": [
+      {
+        "name": "Planks",
+        "video": "https://youtu.be/ehBDqIBeShU?si=SpNEuzToOvbdAb1L"
+      },
+      {
+        "name": "Lower Body",
+        "video": "https://youtu.be/2qu8xQwUqts?si=_CUdH-qP8WGPu8Mw"
+      },
+      {
+        "name": "Upper Body",
+        "video": "https://youtu.be/L6HbRobaLkI?si=EyLXHfbyQoKBriMJ"
+      },
+      {
+        "name": "Arm Care",
+        "video": "https://youtu.be/LCBPDQk_-MU?si=duRB58y0PIR-zOIJ"
+      }
     ]
   },
   "masterCalendar": {
-    "Monday": {
-      "Arm Care + Mobility": [
-        "Explosive Activation -1",
-        "Rotator Cuff -1"
-      ],
-      "Dynamic Warmup": [
-        "Warmup"
-      ],
-      "Footwork": [
-        "Ladders"
-      ],
-      "Rehab Throwing": [
-        "Set 1",
-        "Set 2"
-      ],
-      "Infield": [
-        "Hands routine"
-      ],
-      "Workout / Fitness Edge": [
-        "Baseball Full Body A",
-        "Athlete Foundation A"
-      ],
-      "Hitting": [
-        "Tee",
-        "Front Toss",
-        "BP/Machine",
-        "Options"
-      ]
-    },
-    "Tuesday": {
-      "Arm Care + Mobility": [
-        "Explosive Movement -1",
-        "Scapular Control -1"
-      ],
-      "Dynamic Warmup": [
-        "Warmup"
-      ],
-      "Footwork": [
-        "Dots"
-      ],
-      "Speed Progression": [
-        "Core"
-      ],
-      "Infield": [
-        "Posture Series"
-      ],
-      "Workout / Fitness Edge": [
-        "Baseball Movement Micro-Dose",
-        "Squat (pick 1-2)",
-        "Push (pick 1-2)",
-        "Pull (pick 1-2)",
-        "Hinge (pick 1-2)",
-        "Single Leg (pick 1-2)",
-        "Core/Carry (pick 1-2)",
-        "Power"
-      ],
-      "Hitting": [
-        "Tee",
-        "Front Toss",
-        "BP/Machine",
-        "Options"
-      ]
-    },
-    "Wednesday": {
-      "Arm Care + Mobility": [
-        "Arm Speed Support -1",
-        "Explosive Activation -2"
-      ],
-      "Dynamic Warmup": [
-        "Warmup"
-      ],
-      "Footwork": [
-        "Ladders"
-      ],
-      "Rehab Throwing": [
-        "Set 1",
-        "Set 2"
-      ],
-      "Infield": [
-        "Big 5 + Challenge"
-      ],
-      "Workout / Fitness Edge": [
-        "Baseball Full Body B",
-        "Athlete Foundation B"
-      ],
-      "Hitting": [
-        "Tee",
-        "Front Toss",
-        "BP/Machine",
-        "Options"
-      ]
-    },
-    "Thursday": {
-      "Arm Care + Mobility": [
-        "Explosive Movement -2",
-        "Stability -1"
-      ],
-      "Dynamic Warmup": [
-        "Warmup"
-      ],
-      "Footwork": [
-        "Dots"
-      ],
-      "Infield": [
-        "Posture Series"
-      ],
-      "Workout / Fitness Edge": [
-        "Baseball Movement Micro-Dose",
-        "Squat (pick 1-2)",
-        "Push (pick 1-2)",
-        "Pull (pick 1-2)",
-        "Hinge (pick 1-2)",
-        "Single Leg (pick 1-2)",
-        "Core/Carry (pick 1-2)",
-        "Power"
-      ],
-      "Hitting": [
-        "Tee",
-        "Front Toss",
-        "BP/Machine",
-        "Options"
-      ]
-    },
-    "Friday": {
-      "Dynamic Warmup": [
-        "Warmup"
-      ],
-      "Rehab Throwing": [
-        "Set 1",
-        "Set 2"
-      ],
-      "Infield": [
-        "Hands routine"
-      ],
-      "Workout / Fitness Edge": [
-        "Baseball Full Body C",
-        "Athlete Foundation C"
-      ],
-      "Hitting": [
-        "Tee",
-        "Front Toss",
-        "BP/Machine",
-        "Options"
-      ]
-    },
-    "Saturday": {
-      "Dynamic Warmup": [
-        "Warmup"
-      ],
-      "Footwork": [
-        "Ladders"
-      ],
-      "Speed Progression": [
-        "Optional Swaps"
-      ],
-      "Infield": [
-        "Hands routine",
-        "Big 5 + Challenge"
-      ],
-      "Workout / Fitness Edge": [
-        "Baseball Athletic Optional",
-        "Squat (pick 1-2)",
-        "Push (pick 1-2)",
-        "Pull (pick 1-2)",
-        "Hinge (pick 1-2)",
-        "Single Leg (pick 1-2)",
-        "Core/Carry (pick 1-2)",
-        "Power",
-        "Athlete Play (pick 1)"
-      ],
-      "Hitting": [
-        "Tee",
-        "Front Toss",
-        "BP/Machine",
-        "Options"
-      ]
-    },
-    "Sunday": {
-      "Dynamic Warmup": [
-        "Warmup"
-      ],
-      "Footwork": [
-        "Dots"
-      ],
-      "Infield": [
-        "Big 5 + Challenge"
-      ],
-      "Yoga Series": [
-        "Yoga"
-      ],
-      "Hitting": [
-        "Tee",
-        "Front Toss",
-        "BP/Machine",
-        "Options"
-      ]
-    }
+    "Monday": [
+      {
+        "module": "Dynamic Warmup",
+        "sets": [
+          "Warmup"
+        ]
+      },
+      {
+        "module": "Arm Care + Mobility",
+        "sets": [
+          "Rotator Cuff Activation + Flush",
+          "Explosive Activation"
+        ]
+      },
+      {
+        "module": "Infield",
+        "sets": [
+          "V-Slot Activation",
+          "Footwork - Dots",
+          "Hands routine",
+          "Big 5 + Challenge",
+          "Optional: Position Specific"
+        ]
+      },
+      {
+        "module": "Rehab Throwing",
+        "sets": [
+          "Set 1"
+        ]
+      },
+      {
+        "module": "Hitting",
+        "sets": [
+          "Tee",
+          "Front Toss",
+          "BP/Machine",
+          "Options"
+        ]
+      },
+      {
+        "module": "Workout / Fitness Edge",
+        "sets": [
+          "Baseball Full Body A",
+          "Athlete Foundation A"
+        ]
+      },
+      {
+        "module": "Speed Progression",
+        "sets": [
+          "Core"
+        ]
+      }
+    ],
+    "Tuesday": [
+      {
+        "module": "Dynamic Warmup",
+        "sets": [
+          "Warmup"
+        ]
+      },
+      {
+        "module": "Arm Care + Mobility",
+        "sets": [
+          "Scapular Stability + Control",
+          "Explosive Movement"
+        ]
+      },
+      {
+        "module": "Infield",
+        "sets": [
+          "V-Slot Activation",
+          "Posture Series",
+          "Footwork - Quick Feet",
+          "Big 5 + Challenge",
+          "Optional: Position Specific"
+        ]
+      },
+      {
+        "module": "Hitting",
+        "sets": [
+          "Tee",
+          "Front Toss",
+          "BP/Machine",
+          "Options"
+        ]
+      },
+      {
+        "module": "Workout / Fitness Edge",
+        "sets": [
+          "Baseball Movement Micro-Dose",
+          "Full Body Workout"
+        ]
+      }
+    ],
+    "Wednesday": [
+      {
+        "module": "Dynamic Warmup",
+        "sets": [
+          "Warmup"
+        ]
+      },
+      {
+        "module": "Arm Care + Mobility",
+        "sets": [
+          "Explosive Arm Speed Support"
+        ]
+      },
+      {
+        "module": "Infield",
+        "sets": [
+          "V-Slot Activation",
+          "Footwork - Ladders",
+          "Big 5 + Challenge",
+          "Optional: Position Specific"
+        ]
+      },
+      {
+        "module": "Rehab Throwing",
+        "sets": [
+          "Set 1"
+        ]
+      },
+      {
+        "module": "Hitting",
+        "sets": [
+          "Tee",
+          "Front Toss",
+          "BP/Machine",
+          "Options"
+        ]
+      },
+      {
+        "module": "Workout / Fitness Edge",
+        "sets": [
+          "Baseball Full Body B",
+          "Athlete Foundation B"
+        ]
+      }
+    ],
+    "Thursday": [
+      {
+        "module": "Dynamic Warmup",
+        "sets": [
+          "Warmup"
+        ]
+      },
+      {
+        "module": "Arm Care + Mobility",
+        "sets": [
+          "Bulletproof Stability",
+          "Explosive Activation"
+        ]
+      },
+      {
+        "module": "Infield",
+        "sets": [
+          "V-Slot Activation",
+          "Posture Series",
+          "Footwork - Dots",
+          "Big 5 + Challenge",
+          "Optional: Position Specific"
+        ]
+      },
+      {
+        "module": "Hitting",
+        "sets": [
+          "Tee",
+          "Front Toss",
+          "BP/Machine",
+          "Options"
+        ]
+      },
+      {
+        "module": "Workout / Fitness Edge",
+        "sets": [
+          "Baseball Movement Micro-Dose",
+          "Full Body Workout"
+        ]
+      }
+    ],
+    "Friday": [
+      {
+        "module": "Dynamic Warmup",
+        "sets": [
+          "Warmup"
+        ]
+      },
+      {
+        "module": "Arm Care + Mobility",
+        "sets": [
+          "Pre-Game Control & Rhythm",
+          "Explosive Movement"
+        ]
+      },
+      {
+        "module": "Infield",
+        "sets": [
+          "V-Slot Activation",
+          "Footwork - Quick Feet",
+          "Hands routine",
+          "Big 5 + Challenge",
+          "Optional: Position Specific"
+        ]
+      },
+      {
+        "module": "Rehab Throwing",
+        "sets": [
+          "Set 2"
+        ]
+      },
+      {
+        "module": "Hitting",
+        "sets": [
+          "Tee",
+          "Front Toss",
+          "BP/Machine",
+          "Options"
+        ]
+      },
+      {
+        "module": "Workout / Fitness Edge",
+        "sets": [
+          "Baseball Full Body C",
+          "Athlete Foundation C"
+        ]
+      },
+      {
+        "module": "Workout - No Gym",
+        "sets": [
+          "Lockdown Series"
+        ]
+      },
+      {
+        "module": "Speed Progression",
+        "sets": [
+          "Optional Swaps"
+        ]
+      }
+    ],
+    "Saturday": [
+      {
+        "module": "Dynamic Warmup",
+        "sets": [
+          "Warmup"
+        ]
+      },
+      {
+        "module": "Infield",
+        "sets": [
+          "V-Slot Activation",
+          "Footwork - Ladders",
+          "Hands routine",
+          "Big 5 + Challenge",
+          "Optional: Position Specific"
+        ]
+      },
+      {
+        "module": "Hitting",
+        "sets": [
+          "Tee",
+          "Front Toss",
+          "BP/Machine",
+          "Options"
+        ]
+      },
+      {
+        "module": "Workout / Fitness Edge",
+        "sets": [
+          "Baseball Athletic Optional",
+          "Full Body Workout",
+          "Athlete Play (pick 1)"
+        ]
+      }
+    ],
+    "Sunday": [
+      {
+        "module": "Dynamic Warmup",
+        "sets": [
+          "Warmup"
+        ]
+      },
+      {
+        "module": "Infield",
+        "sets": [
+          "V-Slot Activation",
+          "Posture Series",
+          "Big 5 + Challenge",
+          "Optional: Position Specific"
+        ]
+      },
+      {
+        "module": "Hitting",
+        "sets": [
+          "Tee",
+          "Front Toss",
+          "BP/Machine",
+          "Options"
+        ]
+      },
+      {
+        "module": "Yoga Series",
+        "sets": [
+          "Yoga"
+        ]
+      }
+    ]
   },
   "setMeta": {
-    "Ladders": {
+    "Footwork - Ladders": {
       "mode": "sequence",
       "description": "12-step sequence"
     },
-    "Dots": {
+    "Footwork - Dots": {
       "mode": "sequence",
       "description": "6-step sequence"
     },
-    "Rotator Cuff -1": {
+    "Footwork - Quick Feet": {
+      "mode": "sequence",
+      "description": "6-step sequence",
+      "video": "https://youtu.be/jDdpnBmbexQ?si=cQu5plAbkorPeBv-"
+    },
+    "V-Slot Activation": {
+      "mode": "sequence",
+      "description": "8-step sequence"
+    },
+    "Rotator Cuff Activation + Flush": {
       "mode": "sequence",
       "description": "5-step sequence"
     },
-    "Scapular Control -1": {
+    "Scapular Stability + Control": {
       "mode": "sequence",
       "description": "5-step sequence"
     },
-    "Arm Speed Support -1": {
+    "Explosive Arm Speed Support": {
       "mode": "sequence",
       "description": "5-step sequence"
     },
-    "Stability -1": {
+    "Bulletproof Stability": {
       "mode": "sequence",
       "description": "5-step sequence"
     },
-    "Explosive Activation -1": {
+    "Pre-Game Control & Rhythm": {
+      "mode": "sequence",
+      "description": "4-step sequence"
+    },
+    "Explosive Activation": {
       "mode": "sequence",
       "description": "5-step sequence"
     },
-    "Explosive Movement -1": {
-      "mode": "sequence",
-      "description": "5-step sequence"
-    },
-    "Rotator Cuff -2": {
-      "mode": "sequence",
-      "description": "5-step sequence"
-    },
-    "Scapular Control -2": {
-      "mode": "sequence",
-      "description": "5-step sequence"
-    },
-    "Arm Speed Support -2": {
-      "mode": "sequence",
-      "description": "5-step sequence"
-    },
-    "Stability -2": {
-      "mode": "sequence",
-      "description": "5-step sequence"
-    },
-    "Explosive Activation -2": {
-      "mode": "sequence",
-      "description": "5-step sequence"
-    },
-    "Explosive Movement -2": {
+    "Explosive Movement": {
       "mode": "sequence",
       "description": "5-step sequence"
     },
@@ -1835,6 +1801,14 @@
       "mode": "sequence",
       "description": "8-step sequence"
     },
+    "Optional: Position Specific": {
+      "mode": "sequence",
+      "description": "7-step sequence"
+    },
+    "Yoga": {
+      "mode": "sequence",
+      "description": "20-step sequence"
+    },
     "Baseball Full Body A": {
       "mode": "sequence",
       "description": "15-step sequence"
@@ -1855,33 +1829,9 @@
       "mode": "sequence",
       "description": "6-step sequence"
     },
-    "Squat (pick 1-2)": {
+    "Full Body Workout": {
       "mode": "sequence",
-      "description": "4-step sequence"
-    },
-    "Push (pick 1-2)": {
-      "mode": "sequence",
-      "description": "4-step sequence"
-    },
-    "Pull (pick 1-2)": {
-      "mode": "sequence",
-      "description": "4-step sequence"
-    },
-    "Hinge (pick 1-2)": {
-      "mode": "sequence",
-      "description": "4-step sequence"
-    },
-    "Single Leg (pick 1-2)": {
-      "mode": "sequence",
-      "description": "4-step sequence"
-    },
-    "Core/Carry (pick 1-2)": {
-      "mode": "sequence",
-      "description": "5-step sequence"
-    },
-    "Power": {
-      "mode": "sequence",
-      "description": "4-step sequence"
+      "description": "7-step sequence"
     },
     "Athlete Foundation A": {
       "mode": "sequence",
@@ -1901,15 +1851,15 @@
     },
     "Tee": {
       "mode": "sequence",
-      "description": "6-step sequence"
+      "description": "5-step sequence"
     },
     "Front Toss": {
       "mode": "sequence",
-      "description": "3-step sequence"
+      "description": "4-step sequence"
     },
     "Options": {
       "mode": "sequence",
-      "description": "16-step sequence"
+      "description": "17-step sequence"
     }
   }
 }
